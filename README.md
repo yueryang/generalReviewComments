@@ -200,7 +200,11 @@ Yours sincerely,
 ..., ...
 ```
 
-## 回复审稿人问题
+## 态度问题
+
+### 使用了不正规的邮箱
+
+The current emails used for academic paper submission are informal. Please try to use institute-qualified emails. If it is difficult to use institute-qualified emails, anyway, a better way would be to use Gmail, where the email address should start with an English letter, and the length of the email address should be appropriate. 
 
 ### 回复态度不认真
 
