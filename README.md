@@ -90,7 +90,7 @@ Normally, the Introduction section of a paper that comes from science and engine
 
 ### 科学或工程类文章摘要分点
 
-The writing style of the Abstract is currently a writing style of papers that come from arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
+The writing style of the Abstract is currently a writing style of papers that come from the arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
 
 ### 章节标题没有序号
 
