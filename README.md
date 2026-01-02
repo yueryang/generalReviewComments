@@ -2,7 +2,7 @@
 
 本文档依照上百篇已被审阅的论文中常见的问题进行归类总结并形成通用论文审稿意见（Comments），其作用类似于香港大学 TALIC 面向有助教任务的全日制博士生开展有关如何教学的课程中的模板化反馈（Templated Feedback）。
 
-当正在被审阅的论文“命中”了相应的问题后，审稿人可直接将对应的审稿意见复制粘贴到相应的审稿意见区域中，并依照实际情况进行排序和标号。
+当正在被审阅的论文“命中”了相应的问题后，审稿人可直接将对应的审稿意见复制粘贴到相应的审稿意见区域中，并依照实际情况进行补充、排序和标号。
 
 为便于检索，本文档已对每一部分的问题通过使用字符串比较的形式进行升序排序。
 
@@ -12,53 +12,29 @@
 2) 一些较为优质的待审论文可能不含有本文档中任一问题；
 3) 对于一些特定的意见，请根据实际情况进行编写。
 
-## 公式问题
+## 作者态度问题
 
-### 公式与上下文不衔接
+### 使用了不正规的邮箱
 
-The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
+The current emails used for academic paper submission are informal. Please try to use institute-qualified emails. If it is difficult to use institute-qualified emails, anyway, a better way would be to use Gmail, where the email address should start with an English letter, and the length of the email address should be appropriate. 
 
-### 公式太长
+### 双盲同行评审文章暴露姓名单位
 
-If the equation cannot be written on one line with the equation marker, please insert a line break before the appropriate plus or minus sign and ensure that the left side of all lines starting from the second line does not extend beyond the leftmost side of the first line. 
+While the paper was sent for a double-blind peer review, the paper exposes the names and affiliations. If the authors want to show their names and affiliations in the paper, please select a journal or conference that supports single-blind peer review and select single-blind peer review during submission. 
 
-### 公式序号越界
+### 回复态度不认真
 
-The serial numbers of the equations between lines should not go beyond the right boundary. 
-
-### 公式是截图或公式排版不规范
-
-Please use a correct equation editor to edit the equations. 
-
-### 分式括号未能涵盖分式内容
-
-Please use brackets large enough to cover the fraction structure. 
-
-### 变量未以数学形式倾斜
-
-For symbols representing variables, they should be in mathematical italics. In other words, single-letter variables should be in italics, and variables containing multiple letters should be made in textual italics. 
-
-### 变量直接使用英文单词
-
-For variables consisting of multiple letters, please consider using a simple single-letter or single-Greek letter to represent, with a number in the lower right corner to distinguish if necessary. Otherwise, please make the variables in text italics (using "\textit{}" in the mathematics environments in LaTeX). 
-
-### 行内公式排版过于突兀
-
-The in-line equations are not properly formatted. When reading, they may be abrupt, which may affect readers' experience. 
-
-### 行间公式下接变量解释不规范
-
-If the variables in the equations are to be explained on the next line, the explanation should be preceded by the word "where" written at the beginning of the line without space characters and in lowercase. 
-
-### 角标不正确
-
-Places that require superscripts (including superscripts and subscripts) should use superscripts correctly. 
+While I appreciate the revision made by the authors, I would like to remind the authors of the point-to-point response to the reviewers that each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
 
 ## 写作风格
 
 ### 上下级结构标题直接连接
 
 The title of the superstructure cannot be directly connected to the title of the subordinate structure. Please add an introductory paragraph between the two. 
+
+### 交叉学科文章写作风格混乱没有侧重
+
+This paper is interdisciplinary research. If it is more likely an engineering topic, the authors should consider using the writing style of an engineering research paper to conduct the writing and consider submitting the paper to a journal covering engineering topics. Otherwise, the authors should focus on explaining the principles by regarding engineering methods as tools for proving their findings. 
 
 ### 全文没有量化数据
 
@@ -100,17 +76,29 @@ There are many enumerations in this paper, which makes the paper not sound acade
 
 This paper does not follow the academic writing standards. Please use sections and subsections with clear hierarchical sequence numbers in their titles to structure this paper. 
 
-### 未添加伦理审查
-
-Please add ethical consideration statements, as this paper involves data from human bodies. 
-
 ### 机翻味重
 
 The English is not well-written. Some English expressions read like results of machine translation. 
 
+### 涉及人体数据但未没有伦理审查声明
+
+Please add ethical consideration statements, as this paper involves data from human bodies. The authors should attempt to obtain ethical approval from their university and submit the approved document as supplementary materials to the journal. 
+
+### 科学或工程类文章引言分节
+
+Normally, the Introduction section of a paper that comes from science and engineering should not include subsection or subsubsection structures. 
+
+### 科学或工程类文章摘要分点
+
+The writing style of the Abstract is currently a writing style of papers that come from arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
+
 ### 章节标题没有序号
 
 There should be an order number at the beginning of each section and subsection title. 
+
+### 算法文章没有复杂度分析
+
+This paper mainly focuses on algorithms. However, there is no time or memory complexity analysis. 
 
 ### 结论太长
 
@@ -135,6 +123,10 @@ The abbreviations of the academic terms are not used correctly. Each academic te
 ### 缺乏重要 Section
 
 An academic paper should at least include, from the beginning to the end, an abstract, an Introduction section, a Related Work section, a Methodology section, an Experiments section, a Results and Discussion section, a Conclusion section, some appendix sections, and a References section. For the sections between the Introduction section and the Conclusion section, there should be subsections. 
+
+### 跨级跳跃
+
+This paper suffers from a problem with its writing style and structure, specifically that some levels are skipped. For example, some first-level headings and third-level headings directly skip over second-level headings, which is not allowed. That is to say, between the titles of Section X and Section X.Y.Z, there should be a title of Section X.Y. Subsequently, there should be an introductory paragraph between the titles of Section X and Section X.Y and between the titles of Section X.Y and Section X.Y.Z. 
 
 ## 回复 Editors
 
@@ -200,87 +192,161 @@ Yours sincerely,
 ..., ...
 ```
 
-## 态度问题
-
-### 使用了不正规的邮箱
-
-The current emails used for academic paper submission are informal. Please try to use institute-qualified emails. If it is difficult to use institute-qualified emails, anyway, a better way would be to use Gmail, where the email address should start with an English letter, and the length of the email address should be appropriate. 
-
-### 回复态度不认真
-
-While I appreciate the revision made by the authors, I would like to remind the authors of the point-to-point response to the reviewers that each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
-
 ## 多媒体问题
 
 ### 全文没有图表
 
 There are no figures or tables in this paper. This can lead to a direct "reject" decision. 
 
-### 图不清晰
+### 公式问题
+
+#### 公式与上下文不衔接
+
+The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
+
+#### 公式太长
+
+If the equation cannot be written on one line with the equation marker, please insert a line break before the appropriate plus or minus sign and ensure that the left side of all lines starting from the second line does not extend beyond the leftmost side of the first line. 
+
+#### 公式序号越界
+
+The serial numbers of the equations between lines should not go beyond the right boundary. 
+
+#### 公式是截图或公式排版不规范
+
+Please use a correct equation editor to edit the equations. 
+
+#### 分式括号未能涵盖分式内容
+
+Please use brackets large enough to cover the fraction structure. 
+
+#### 变量未以数学形式倾斜
+
+For symbols representing variables, they should be in mathematical italics. In other words, single-letter variables should be in italics, and variables containing multiple letters should be made in textual italics. 
+
+#### 变量直接使用英文单词
+
+For variables consisting of multiple letters, please consider using a simple single-letter or single-Greek letter to represent, with a number in the lower right corner to distinguish if necessary. Otherwise, please make the variables in text italics (using "\textit{}" in the mathematics environments in LaTeX). 
+
+#### 行内公式排版过于突兀
+
+The in-line equations are not properly formatted. When reading, they may be abrupt, which may affect readers' experience. 
+
+#### 行间公式下接变量解释不规范
+
+If the variables in the equations are to be explained on the next line, the explanation should be preceded by the word "where" written at the beginning of the line without space characters and in lowercase. 
+
+#### 角标不正确
+
+Places that require superscripts (including superscripts and subscripts) should use superscripts correctly. 
+
+### 图
+
+#### 图不清晰
 
 The figures are not clear enough. Please improve their quality and resolution. 
 
-### 图中文字的字体与普通文本中文字的字体不一致
+#### 图中文字的字体与普通文本中文字的字体不一致
 
 The font families of the text in the figures should be changed to "Times New Roman", such that they can be aligned with the font family of the plain text. 
 
-### 图太过鲜艳
+#### 图使用了一条线的箭头
+
+Using arrows whose body is a single line in figures is not formal in academic writing. Please use arrows whose body has a suitable width in the figures. 
+
+#### 图太抽象
+
+The figures are abstract. Please optimize the figures to make them convey more exact information. 
+
+#### 图太过鲜艳
 
 The color matching of some figures is too sharp. Please use mild colors. 
 
-### 图是软件截图
+#### 图是软件截图
 
 Normally, screenshots of software are not allowed in academic writing. 
 
-### 图标题位置不正确
+#### 图标题位置不正确
 
 A caption of a figure should be put after the figure body. 
 
-### 图没有标题
+#### 图没有标题
 
 A caption should be offered after each figure. 
 
-### 图片和表格应当尽可能放置在首次被提及的段落下方
-
-Figures and tables should be placed below the paragraph where they are first referenced, if possible. 
-
-### 图片脚注格式不正确
+#### 图片脚注格式不正确
 
 The footnotes of the figures are not typeset well. Please directly explain the figures at the end of the captions of the figures. 
 
-### 图表未被显式引用
-
-The paper presents some figures and tables, but some of them are not referenced explicitly by statements in the plain text. 
-
-### 图表标题序号和描述之间没有冒号或空格
-
-Each figure caption consists of a figure number and a figure title. Each table caption consists of a table number and a table title. Regarding a caption of a figure or a table, there should be a colon with a space character or a period with a space character between the number of the table and the title in the caption. For example, "Fig. 1: This is a figure. " is a good caption of a figure. 
-
-### 子图没有子标题
+#### 子图没有子标题
 
 Regarding the figures containing subplots, for each subplot, there should be a caption below it, consisting of a marker (like (a), (b), and (c)) and a description connected by a space character. The caption of each subplot should be editable outside the subplot instead of being embedded in the subplot. The authors can retain the descriptions marked (a), (b), (c), etc. in the main captions of the figures. 
 
-### 子图被嵌为一个大图
+#### 子图被嵌为一个大图
 
 If a figure includes multiple subplots, please submit the source files for each subplot separately, rather than a single source file combining, concatenating, or embedding all the subplots into one large figure, to the journal. 
 
-### 未使用三线表
+### 多媒体元素序号和标题之间没有冒号或句号
+
+Regarding the caption of each multimedia element, like figures, tables, equations, and algorithms, which consists of a number, a title, and a description, there should be a colon with a space character or a period with a space character between the number and the title. Taking a figure as a multimedia caption example, "Fig. 1: This is a figure. This proves that our proposed method is the optimal one. " is a good caption of a figure. In addition, the punctuation in the caption follows the same rules as the punctuation in the plain text. For example, a space character is required after a period and a colon before an English word can follow. 
+
+### 多媒体元素应当尽可能放置在首次被提及的段落下方
+
+Multimedia elements, like figures, tables, equations, and algorithms, should be placed below the paragraph where they are first referenced, if possible. 
+
+### 多媒体元素未被显式引用
+
+The paper presents some multimedia elements like figures, tables, equations, and algorithms, but some of them are not referenced explicitly by statements in the plain text. The authors need to guarantee that each multimedia element is referenced explicitly by statements in the plain text. 
+
+### 算法
+
+#### 未使用三线结构
+
+The authors can consider using a three-line table to format the algorithms, where the first two lines surround the caption of the algorithms, and the last line serves as the ending line of the algorithm structure. 
+
+#### 算法文章没有伪代码
+
+This paper mainly focuses on algorithms. However, there are no algorithms or pseudocode in this paper. 
+
+#### 算法是截图
+
+Please make the algorithms editable. Using screenshots as algorithms is not allowed. 
+
+#### 算法标题位置不正确
+
+A caption of an algorithm should be put between the first two lines of the algorithm. 
+
+#### 算法没有标题
+
+A caption of an algorithm should be offered between the first two lines of the algorithm. 
+
+#### 算法脚注格式不正确
+
+The footnotes of the algorithms are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the algorithm body, and that they correctly correspond to the things required to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the algorithms to the end of the captions. Nonetheless, this is not a good choice. 
+
+#### 过程使用冗余文字描述
+
+The authors tried to describe some complex procedures in words, which leads to wordy paragraphs. Please try to use algorithms or pseudocode instead. 
+
+### 表
+
+#### 未使用三线表
 
 Please use the three-line table format to format the tables. If comparison is involved, please make the optimal values of each comparison group in bold. 
 
-### 表是截图
+#### 表是截图
 
 Please make the tables editable. Using screenshots as tables is not allowed. 
 
-### 表标题位置不正确
+#### 表标题位置不正确
 
 A caption of a table should be put before the table body. 
 
-### 表格脚注格式不正确
+#### 表格脚注格式不正确
 
 The footnotes of the tables are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the table body, and that they correctly correspond to the things required to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the tables to the end of the captions. Nonetheless, this is not a good choice. 
 
-### 表没有标题
+#### 表没有标题
 
 A caption should be offered before each table. 
 
