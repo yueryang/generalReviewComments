@@ -236,6 +236,10 @@ The in-line equations are not properly formatted. When reading, they may be abru
 
 If the variables in the equations are to be explained on the next line, the explanation should be preceded by the word "where" written at the beginning of the line without space characters and in lowercase. 
 
+#### 行间公式未居中
+
+Equations between lines should be centralized. 
+
 #### 角标不正确
 
 Places that require superscripts (including superscripts and subscripts) should use superscripts correctly. 
@@ -256,7 +260,7 @@ Using arrows whose body is a single line in figures is not formal in academic wr
 
 #### 图太抽象
 
-The figures are abstract. Please optimize the figures to make them convey more exact information. 
+The figures are too abstract. Please optimize the figures to make them convey more exact information. 
 
 #### 图太过鲜艳
 
