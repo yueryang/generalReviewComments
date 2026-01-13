@@ -64,6 +64,14 @@ The Introduction section is not well-written. The Introduction section should br
 
 Please list the contributions and subsequently provide the structure statements for the remaining sections at the end of the Introduction section. 
 
+### 摘要太短
+
+The abstract is too brief. It is recommended to highlight the logical progression of the research objectives, methodologies, key findings, and conclusions. 
+
+### 摘要太长
+
+The abstract is too long. Please simplify the abstract. While the abstract covers the topic, its structure is somewhat loose. It is recommended to highlight the logical progression of the research objectives, methodologies, key findings, and conclusions. 
+
 ### 摘要结尾处无具体数据
 
 The Abstract lacks quantitative results. Key findings should be presented in the form of quantitative outcomes to strengthen their impact at the end of the Abstract. 
@@ -71,6 +79,14 @@ The Abstract lacks quantitative results. Key findings should be presented in the
 ### 文章存在枚举
 
 There are many enumerations in this paper, which makes the paper not sound academic. Please reduce the usage of enumerations. 
+
+### 文章标题冒号后面首字母未大写
+
+Please capitalize the first letter after the colon in the title of the paper. 
+
+### 文章标题大小写不统一
+
+As for the paper title, the authors should either capitalize the first letter of each content word or capitalize the first letter of the title and the first letter after the period, the question mark, and the colon. Please note that proper academic terms with established capitalization conventions should always retain their original letter casing, regardless of their position in a sentence. 
 
 ### 无学术写作结构
 
