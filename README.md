@@ -56,6 +56,10 @@ The keywords are not typeset uniformly. While keeping the professional writing o
 
 Too many keywords are provided. Please reduce the number of keywords. 
 
+### 分节过于频繁
+
+Some sections are divided into too many subsections, resulting in too little content in each subsection. Please re-organize the section and subsection structures. 
+
 ### 引言写得不好
 
 The Introduction section is not well-written. The Introduction section should briefly contain the related background, the limitations of the current existing (state-of-the-art) methods, research motivation, proposed methodologies, research contributions, and the paper's structure statements. 
