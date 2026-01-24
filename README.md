@@ -404,6 +404,10 @@ The in-text citation markers are not used correctly. Initially, the in-text cita
 
 ## 排版问题
 
+### 全文字号统一难以区分上下级标题
+
+All the text shares the same font size in this paper, which can hardly convey a superior-subordinate relationship in typesetting. The authors may need to adjust the font. For example, the authors can consider using different font sizes for the titles of sections and the titles of subsections. Using bold, italics, and regular fonts in the same font size is also acceptable to tell the titles of sections, the titles of subsections, and the content text. 
+
 ### 分号后未接小写字母
 
 The paper uses a lot of semicolons. Since there is still disagreement on the use of semicolons in academic papers, I have no comments on the large-scale usage of semicolons. However, the authors must ensure that the semicolon is followed by the next paragraph without a paragraph break, and the first letter of the semicolon must be lowercase.
