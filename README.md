@@ -28,6 +28,10 @@ While I appreciate the revision made by the authors, I would like to remind the 
 
 ## 写作风格
 
+### Related Work 没有对比
+
+The related work section should compare the differences of the previous works, figure out their shortcomings, and explain why the proposed method can outperform others. 
+
 ### 上下级结构标题直接连接
 
 The title of the superstructure cannot be directly connected to the title of the subordinate structure. Please add an introductory paragraph between the two. 
@@ -459,6 +463,10 @@ The text should be justified (aligned to both margins) rather than left-aligned.
 ### 文章字体导致文章难以阅读
 
 The font family used in this paper seriously affects readers' reading. Please consider changing the font family. It is recommended to use "Times New Roman" as the font family. 
+
+### 文章存在乱码字符
+
+There are unrecognized characters in this paper. Please double-check the paper before submission. 
 
 ### 曲引号前后引号使用不正确
 
