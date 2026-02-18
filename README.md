@@ -394,9 +394,17 @@ The authors use multiple evaluation metrics to evaluate and compare different me
 
 Please cite more references published in the last 3 years. Please also make a full investigation and discuss them. 
 
+### 文章投稿至十分高质量的期刊或会议但引用了十分低质量的期刊或会议的文章
+
+It is not recommended that authors cite papers indexed in journals under warning or EI-indexed conferences not recommended by the CCF. 
+
 ### 文章有参考文献但未在正文显示引用
 
 While the paper has offered a reference list at the end of the paper, they are not cited in the text. The authors should cite all the references in the text, where their in-text views and statements that need to be supported can be supported by the references cited near them. 
+
+### 期刊卷号与页码之间没有逗号
+
+The reference list contains inconsistencies in formatting. For journal articles, please ensure a comma is placed between the volume (and issue) number and the page number or article number. 
 
 ### 正文中三人或以上的作者书写不正确
 
