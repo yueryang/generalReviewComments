@@ -1,4 +1,4 @@
-# 通用论文审稿意见
+# 通用论文审稿意见（General Review Comments）
 
 本存储库依照上百篇已被审阅的论文中常见的问题进行归类总结，进而形成通用论文审稿意见（Comments），
 其作用类似于香港大学 TALIC 面向研究型研究生（Research Postgraduate Students，简称“RPg”）开展有关如何教学的课程中的模板化反馈（Templated Feedback）。
