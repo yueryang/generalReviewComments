@@ -1,8 +1,9 @@
 # 通用论文审稿意见
 
-本文档依照上百篇已被审阅的论文中常见的问题进行归类总结并形成通用论文审稿意见（Comments），其作用类似于香港大学 TALIC 面向研究型研究生生开展有关如何教学的课程中的模板化反馈（Templated Feedback）。
+本存储库依照上百篇已被审阅的论文中常见的问题进行归类总结，进而形成通用论文审稿意见（Comments），
+其作用类似于香港大学 TALIC 面向研究型研究生（Research Postgraduate Students，简称“RPg”）开展有关如何教学的课程中的模板化反馈（Templated Feedback）。
 
-当正在被审阅的论文“命中”了相应的问题后，审稿人可直接将对应的审稿意见复制粘贴到相应的审稿意见区域中，并依照实际情况进行补充、排序和标号。
+当正在被审阅的论文“命中”了相应的问题后，审稿人可直接将对应的审稿意见复制粘贴到相应的审稿意见区域中，并依照实际情况进行细化、补充、排序和标号。
 
 为便于检索，本文档已对每一部分的问题通过使用字符串比较的形式进行升序排序。
 
@@ -10,7 +11,11 @@
 
 1) 请勿将本文档中所有的审稿意见直接复制粘贴到一篇待审论文的审稿意见区域中，请仅将“被命中”的问题对应的审稿意见复制粘贴到相应的审稿意见区域中；
 2) 一些较为优质的待审论文可能不含有本文档中任一问题；
-3) 对于一些特定的意见，请根据实际情况进行编写。
+3) 对于一些非通用的特定意见，请根据实际情况进行编写。
+
+此外，本存储库提供了 ``arrangeOrder.py`` 脚本来执行层次排序，要求被排序的文件以行首“#”的数量来确定层次关系，且正文内容中不含有以“#”开头的行。
+有需要者可以使用本存储库提供的 ``computePaperCount.py`` 脚本来通过简历中已按出版物合并的审稿经历计算总审稿篇数。
+此处，强烈谴责某些期刊频繁邀约审稿却对审稿人稿件秒拒的行为及由此导致的审稿人审稿量为其发文量数倍的现象。
 
 ## 作者态度问题
 
@@ -84,9 +89,21 @@ The abstract is too long. Please simplify the abstract. While the abstract cover
 
 The Abstract lacks quantitative results. Key findings should be presented in the form of quantitative outcomes to strengthen their impact at the end of the Abstract. 
 
+### 文章存在大量不明符号
+
+There are too many alternative symbols used in this paper. If these symbols are written on purpose, please use the superscript or subscript format to format them and explain them. 
+
 ### 文章存在枚举
 
 There are many enumerations in this paper, which makes the paper not sound academic. Please reduce the usage of enumerations. 
+
+### 文章存在独句成段现象
+
+Please avoid paragraphs containing only one sentence. 
+
+### 文章存在疑似 AIGC 枚举
+
+There are many enumerations in this paper, which read like AIGC. The authors need to refine the language and presentation. Meanwhile, please avoid copying AIGC and complex symbols in academic writing. 
 
 ### 文章标题冒号后面首字母未大写
 
@@ -95,6 +112,10 @@ Please capitalize the first letter after the colon in the title of the paper.
 ### 文章标题大小写不统一
 
 As for the paper title, the authors should either capitalize the first letter of each content word or capitalize the first letter of the title and the first letter after the period, the question mark, and the colon. Please note that proper academic terms with established capitalization conventions should always retain their original letter casing, regardless of their position in a sentence. 
+
+### 文章英语表达欠佳难以理解
+
+The manuscript contains numerous typographical errors, inconsistent formatting, wordy expressions, and incomplete sentences. It is very challenging for readers to follow the paper. A thorough language and formatting revision is required. 
 
 ### 无学术写作结构
 
@@ -280,7 +301,7 @@ The font families of the text in the figures should be changed to "Times New Rom
 
 #### 图使用了一条线的箭头
 
-Using arrows whose body is a single line in figures is not formal in academic writing. Please use arrows whose body has a suitable width in the figures. 
+Using arrows whose body is a single line in figures is not formal in academic writing. Please use arrows whose bodies have a suitable width in the figures. 
 
 #### 图太抽象
 
@@ -389,6 +410,14 @@ Please provide experimental environments.
 The authors use multiple evaluation metrics to evaluate and compare different methods. However, some evaluation metrics are better the higher the value, while others are better the lower the value. The authors should provide the formulas for these evaluation metrics and mark each evaluation metric with an up or down arrow accordingly to the right of it in the table header. 
 
 ## 引用问题
+
+### 在线资源引用格式不正确
+
+Please use the correct citation format to cite the online resources. 
+
+### 引文未正确区分大小写或使用了全大写
+
+Please check the cases of the letters in the author names, paper titles, and publication names in the reference list. 
 
 ### 引文过时
 
