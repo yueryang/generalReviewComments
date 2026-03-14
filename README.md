@@ -55,11 +55,11 @@ Please provide more quantitative data.
 
 ### 关键词声明不正确
 
-The "Key words" should be written as "keywords". There should be no space characters between the "Keywords" and the colon after it. 
+The "Key words" should be written as "Keywords". There should be no space characters between the "Keywords" and the colon after it. 
 
 ### 关键词大小写不匹配
 
-The keywords are not typeset uniformly. While keeping the professional writing of the academic terms, please capitalize the first letter of each keyword, or capitalize the first letter of the first word and all the content words of each keyword. 
+The keywords are not typeset uniformly. While keeping the professional writing of the academic terms, please capitalize the first letter of the first word of each keyword, or capitalize the first letter of the first word and all the content words of each keyword. 
 
 ### 关键词数量太多
 
@@ -68,6 +68,14 @@ Too many keywords are provided. Please reduce the number of keywords.
 ### 分节过于频繁
 
 Some sections are divided into too many subsections, resulting in too little content in each subsection. Please re-organize the section and subsection structures. 
+
+### 国际期刊出现意义不明的中文
+
+As this paper is submitted to an international journal, please check the Chinese characters carefully. If they are necessary, please add translations near them. 
+
+### 国际期刊出现意义不明的其它语言
+
+There are some statements written in non-English languages. As this paper is submitted to an international journal, please check them carefully. 
 
 ### 引言写得不好
 
@@ -293,7 +301,7 @@ Places that require superscripts (including superscripts and subscripts) should 
 
 #### 图不清晰
 
-The figures are not clear enough. Please improve their quality and resolution. 
+The figures are not clear enough. Please improve their quality and resolution. Please embed figures in the form of PDF or vector graphics, like EPS, if using LaTeX. 
 
 #### 图中文字的字体与普通文本中文字的字体不一致
 
