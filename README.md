@@ -497,6 +497,10 @@ This is an orange  (color) orange. -> Incorrect
 This is an orange  (color)  orange. -> Incorrect
 ```
 
+### 数值和单位之间没有空格
+
+Except for "%", "℃", "°", and "$", a space character is required between numerals and units. 
+
 ### 文本出现了多个空格字符
 
 There are two or more continuous space characters in the text. Please use one space character only. 
