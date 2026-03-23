@@ -133,6 +133,10 @@ This paper does not follow the academic writing standards. Please use sections a
 
 The English is not well-written. Some English expressions read like results of machine translation. 
 
+### 标题太长
+
+The title is too long. Please shorten the title. A recommended maximum word count is 15. 
+
 ### 涉及人体数据但未没有伦理审查声明
 
 Please add ethical consideration statements, as this paper involves data from human bodies. The authors should attempt to obtain ethical approval from their university and submit the approved document as supplementary materials to the journal. 
@@ -418,6 +422,10 @@ Please provide experimental environments.
 The authors use multiple evaluation metrics to evaluate and compare different methods. However, some evaluation metrics are better the higher the value, while others are better the lower the value. The authors should provide the formulas for these evaluation metrics and mark each evaluation metric with an up or down arrow accordingly to the right of it in the table header. 
 
 ## 引用问题
+
+### 参考文献风格序号使用的括号不是方括号
+
+Regarding the reference list, it does not appear to be a publicly acknowledged one. Maybe the authors need to use square brackets to include the order numbers. 
 
 ### 在线资源引用格式不正确
 
