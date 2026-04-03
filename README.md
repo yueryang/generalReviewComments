@@ -439,6 +439,10 @@ Please check the cases of the letters in the author names, paper titles, and pub
 
 Please cite more references published in the last 3 years. Please also make a full investigation and discuss them. 
 
+### 引用了 arxiv 或其它 preprint 的文献
+
+The authors are advised to update the references that are currently in arXiv or other preprint servers to their formally published counterparts, as this improves the archival quality of the manuscript.
+
 ### 文章投稿至十分高质量的期刊或会议但引用了十分低质量的期刊或会议的文章
 
 It is not recommended that authors cite papers indexed in journals under warning or EI-indexed conferences not recommended by the CCF. 
