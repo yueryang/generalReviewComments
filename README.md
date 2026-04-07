@@ -212,7 +212,7 @@ Dear Editors,
 
 Thanks for your invitation and trust in me. 
 The others seem to have submitted the comments before I am about to accept your invitation. 
-The system writes me that the review is finished after I open the link. 
+The system tells me that the review is finished after I open the link. 
 Should you have further review invitations, please do not hesitate to contact me. 
 Looking forward to our next cooperation. 
 Best regards. 
@@ -345,7 +345,9 @@ Regarding the figures containing subplots, for each subplot, there should be a c
 
 #### 子图被嵌为一个大图
 
-If a figure includes multiple subplots, please submit the source files for each subplot separately, rather than a single source file combining, concatenating, or embedding all the subplots into one large figure, to the journal. 
+Regarding figures containing subplots, the authors are suggested to restructure the multi-panel layout. Please align all subfigures and their corresponding sub-captions prefixed with labels (a), (b), (c), etc., to the horizontal and vertical center of their allocated cell of a centered grid. The overall figure caption should be placed at the very bottom, below all sub-figures, to ensure a professional and legible presentation. 
+
+If the authors do not know how to typeset, please submit the source files for each subplot separately, rather than a single source file combining, concatenating, or embedding all the subplots into one large figure, to the journal. 
 
 ### 多媒体元素序号和标题之间没有冒号或句号
 
