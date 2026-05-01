@@ -137,6 +137,10 @@ The English is not well-written. Some English expressions read like results of m
 
 The title is too long. Please shorten the title. A recommended maximum word count is 15. 
 
+### 没有关键词
+
+Please offer the keywords of this paper after the Abstract. 
+
 ### 涉及人体数据但未没有伦理审查声明
 
 Please add ethical consideration statements, as this paper involves data from human bodies. The authors should attempt to obtain ethical approval from their university and submit the approved document as supplementary materials to the journal. 
@@ -443,7 +447,7 @@ Please cite more references published in the last 3 years. Please also make a fu
 
 ### 引用了 arxiv 或其它 preprint 的文献
 
-The authors are advised to update the references that are currently in arXiv or other preprint servers to their formally published counterparts, as this improves the archival quality of the manuscript.
+The authors are advised to update the references that are currently in arXiv or other preprint servers to their formally published counterparts, as this improves the archival quality of the manuscript. 
 
 ### 文章投稿至十分高质量的期刊或会议但引用了十分低质量的期刊或会议的文章
 
