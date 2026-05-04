@@ -77,6 +77,10 @@ As this paper is submitted to an international journal, please check the Chinese
 
 There are some statements written in non-English languages. As this paper is submitted to an international journal, please check them carefully. 
 
+### 存在大量的短章节或章节被用于枚举用途
+
+There are many short subsubsections in this paper, where there is only a short paragraph in each of these subsubsections. In this case, it is recommended to make each of the titles of subsubsections the first sentence in bold of its following paragraph. 
+
 ### 引言写得不好
 
 The Introduction section is not well-written. The Introduction section should briefly contain the related background, the limitations of the current existing (state-of-the-art) methods, research motivation, proposed methodologies, research contributions, and the paper's structure statements. 
