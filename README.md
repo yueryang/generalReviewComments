@@ -81,6 +81,14 @@ There are some statements written in non-English languages. As this paper is sub
 
 There are many short subsubsections in this paper, where there is only a short paragraph in each of these subsubsections. In this case, it is recommended to make each of the titles of subsubsections the first sentence in bold of its following paragraph. 
 
+### 实验没有提供实验环境
+
+Please provide experimental environments, which are recommended to be written as the first subsection of the Experiments section. 
+
+### 实验评估指标没有公式或没有打箭头
+
+The authors use multiple evaluation metrics to evaluate and compare different methods. However, some evaluation metrics are better the higher the value, while others are better the lower the value. The authors should provide the formulas for these evaluation metrics and mark each evaluation metric with an up or down arrow accordingly to the right of it in the table header. 
+
 ### 引言写得不好
 
 The Introduction section is not well-written. The Introduction section should briefly contain the related background, the limitations of the current existing (state-of-the-art) methods, research motivation, proposed methodologies, research contributions, and the paper's structure statements. 
@@ -421,16 +429,6 @@ The footnotes of the tables are not typeset well. Please ensure that all footnot
 
 A caption should be offered before each table. 
 
-## 实验
-
-### 没有提供实验环境
-
-Please provide experimental environments. 
-
-### 评估指标没有公式或没有打箭头
-
-The authors use multiple evaluation metrics to evaluate and compare different methods. However, some evaluation metrics are better the higher the value, while others are better the lower the value. The authors should provide the formulas for these evaluation metrics and mark each evaluation metric with an up or down arrow accordingly to the right of it in the table header. 
-
 ## 引用问题
 
 ### 参考文献风格序号使用的括号不是方括号
@@ -471,9 +469,13 @@ In English academic writing, when citing a work with three or more authors, it i
 
 ### 正文中引用记号不正确
 
-The in-text citation markers are not used correctly. Initially, the in-text citation markers should be marked right after the patterns that require being supported by one or more references, instead of always being marked at the end of the sentence. For example, the in-text citation markers can be placed right after the authors of the references. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
+The in-text citation marks are not used correctly. Initially, the in-text citation marks should be marked right after the patterns that require being supported by one or more references, instead of always being marked at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is a standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
 
 ## 排版问题
+
+### 不能出现在行首的标点符号出现在了行首
+
+Please check your manuscript editor. Normally, the editor should automatically handle punctuation marks that should not appear at the beginning of a line. However, this article currently has a large number of punctuation marks at the beginning of lines. 
 
 ### 全文字号统一难以区分上下级标题
 
