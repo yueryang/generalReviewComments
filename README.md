@@ -81,6 +81,14 @@ There are some statements written in non-English languages. As this paper is sub
 
 There are many short subsubsections in this paper, where there is only a short paragraph in each of these subsubsections. In this case, it is recommended to make each of the titles of subsubsections the first sentence in bold of its following paragraph. 
 
+### 存在大量短段落
+
+There are many short paragraphs. Please consider merging some of them. 
+
+### 存在疑似章节标题的独行文字但未加粗或添加序号且此独行文字适合放在下接自然段的段首
+
+There seem to be some short titles in stand-alone lines. I agree that those should not be made subsubsection titles. Meanwhile, I would like to recommend making each of them the first sentence of its following paragraph. 
+
 ### 实验没有提供实验环境
 
 Please provide experimental environments, which are recommended to be written as the first subsection of the Experiments section. 
