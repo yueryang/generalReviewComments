@@ -45,6 +45,10 @@ The title of the superstructure cannot be directly connected to the title of the
 
 This paper is interdisciplinary research. If it is more likely an engineering topic, the authors should consider using the writing style of an engineering research paper to conduct the writing and consider submitting the paper to a journal covering engineering topics. Otherwise, the authors should focus on explaining the principles by regarding engineering methods as tools for proving their findings. 
 
+### 使用了不正规的序数词进行枚举
+
+The enumerative adverbs "first", "second", "third", etc., are somewhat informal in academic writing. Please try to adjust the expressions. If enumerative adverbs must be used, it would be preferable to replace them with the more formal adverbial forms "firstly" (or "initially"), "secondly", "thirdly", etc. This adjustment would better align the manuscript's register with conventional academic style. 
+
 ### 全文没有量化数据
 
 There are no quantitative data throughout the paper, which is not acceptable in academic papers. Please use adequate quantitative data to support the findings. 
@@ -386,6 +390,10 @@ Multimedia elements, like figures, tables, equations, and algorithms, should be 
 The paper presents some multimedia elements like figures, tables, equations, and algorithms, but some of them are not referenced explicitly by statements in the plain text. The authors need to guarantee that each multimedia element is referenced explicitly by statements in the plain text. 
 
 ### 算法
+
+#### 伪代码被具体为（某种）编程语言
+
+Normally, in pseudocode, we use a single equals sign to express the equality relationship. The double equals sign is typically used in specific programming languages rather than in academic papers. When we need to denote assignment in pseudocode, we usually use $\gets$, which is a leftward arrow-like symbol. 
 
 #### 未使用三线结构
 
