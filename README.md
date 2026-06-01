@@ -291,7 +291,7 @@ The equations should be consistent with the context. In other words, each equati
 
 #### 公式中的等差数列列举时未写出规律中的前两项
 
-It is recommended to change the notation $1, \cdots, n$ to $j = 1, 2, \cdots, n$ in all equations. Listing the first two values before the ellipsis can make the arithmetic progression explicit and avoid any ambiguity about the step size, especially when the index starts from a value other than 1 or when the increment is not 1. Please update all the related notations in this paper. 
+It is recommended to change the notations in the form of $1, \dots, n$ to $1, 2, \cdots, n$ in all equations. Listing the first two values before the ellipsis can make the arithmetic progression explicit and avoid any ambiguity about the step size, especially when the index starts from a value other than 1 or when the increment is not 1. Please update all the related notations in this paper. 
 
 #### 公式太长
 
@@ -335,6 +335,10 @@ Places that require superscripts (including superscripts and subscripts) should 
 
 ### 图
 
+#### 使用了 Lena
+
+The Lena image is no longer recommended to be used in academic experiments. Please use other graphical materials instead. 
+
 #### 图不清晰
 
 The figures are not clear enough. Please improve their quality and resolution. Please embed figures in the form of PDF or vector graphics, like EPS, if using LaTeX. 
@@ -354,6 +358,10 @@ The figures are too abstract. Please optimize the figures to make them convey mo
 #### 图太过鲜艳
 
 The color matching of some figures is too sharp. Please use mild colors. 
+
+#### 图序号非常混乱
+
+The figure order numbers are very messy. Please reorganize their order numbers to ensure they are continuously ascending and unique throughout the paper, and update the references to them in plain text accordingly. 
 
 #### 图是软件截图
 
