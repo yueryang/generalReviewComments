@@ -209,6 +209,10 @@ The abbreviations of the academic terms are not used correctly. Each academic te
 
 An academic paper should at least include, from the beginning to the end, an abstract, an Introduction section, a Related Work section, a Methodology section, an Experiments section, a Results and Discussion section, a Conclusion section, some appendix sections, and a References section. For the sections between the Introduction section and the Conclusion section, there should be subsections. 
 
+### 节、小节标题缩进量不统一
+
+The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles in the same level. 
+
 ### 跨级跳跃
 
 This paper suffers from a problem with its writing style and structure, specifically that some levels are skipped. For example, some first-level headings and third-level headings directly skip over second-level headings, which is not allowed. That is to say, between the titles of Section X and Section X.Y.Z, there should be a title of Section X.Y. Subsequently, there should be an introductory paragraph between the titles of Section X and Section X.Y and between the titles of Section X.Y and Section X.Y.Z. 
