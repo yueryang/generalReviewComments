@@ -191,7 +191,7 @@ The Conclusion section is a little long and includes subsections. Normally, ther
 
 ### 结论局限性多于优势
 
-Writing limitations more than conclusions will make reviewers feel that the contributions are overshadowed by the shortcomings. This imbalance may create a negative final impression, suggesting that the work is defined more by what it failed to do than by what it successfully accomplished. It may further make the research appear tentative, incomplete, or lacking in confidence and forward momentum. 
+Writing limitations more than conclusions will make reviewers feel that the shortcomings overshadow the contributions. This imbalance may create a negative final impression, suggesting that the work is defined more by what it failed to do than by what it successfully accomplished. It may further make the research appear tentative, incomplete, or lacking in confidence and forward momentum. 
 
 ### 结论没有展望
 
@@ -288,6 +288,10 @@ There are no figures or tables in this paper. This can lead to a direct "reject"
 #### 公式与上下文不衔接
 
 The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
+
+#### 公式中的等差数列列举时未写出规律中的前两项
+
+It is recommended to change the notation $1, \cdots, n$ to $j = 1, 2, \cdots, n$ in all equations. Listing the first two values before the ellipsis can make the arithmetic progression explicit and avoid any ambiguity about the step size, especially when the index starts from a value other than 1 or when the increment is not 1. Please update all the related notations in this paper. 
 
 #### 公式太长
 
