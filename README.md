@@ -29,7 +29,7 @@ While the paper was sent for a double-blind peer review, the paper exposes the n
 
 ### 回复态度不认真
 
-While I appreciate the revision made by the authors, I would like to remind the authors of the point-to-point response to the reviewers that each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
+While I appreciate the revision made by the authors, I would like to remind the authors of the point-to-point response to the reviewers. That is, each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
 
 ## 写作风格
 
@@ -243,7 +243,7 @@ Yours sincerely,
 Dear Editors, 
 
 Thanks for the invitation and for your trust in me. 
-The others seem to have submitted their comments before I accepted your invitation. 
+Others seem to have submitted their comments before I accepted your invitation. 
 The system tells me that the review is finished after I open the link. 
 Should you have further review invitations, please do not hesitate to contact me. 
 Looking forward to our next cooperation. 
@@ -291,7 +291,7 @@ There are no figures or tables in this paper. This can lead to a direct "reject"
 
 #### 公式与上下文不衔接
 
-The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
+The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is one. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
 
 #### 公式中的等差数列列举时未写出规律中的前两项
 
@@ -319,7 +319,7 @@ For symbols representing variables, they should be in mathematical italics. In o
 
 #### 变量直接使用英文单词
 
-For variables consisting of multiple letters, please consider using a simple single-letter or single-Greek letter to represent, with a number in the lower right corner to distinguish if necessary. Otherwise, please make the variables in text italics (using "\textit{}" in the mathematics environments in LaTeX). 
+For variables consisting of multiple letters, please consider using a simple single-letter or single-Greek letter to represent them, with a number in the lower right corner to distinguish if necessary. Otherwise, please make the variables in text italics (using "\textit{}" in the mathematics environments in LaTeX). 
 
 #### 行内公式排版过于突兀
 
@@ -331,7 +331,7 @@ If the variables in the equations are to be explained on the next line, the expl
 
 #### 行间公式未居中
 
-Equations between lines should be centralized. 
+Equations between lines should be centered. 
 
 #### 角标不正确
 
@@ -341,7 +341,7 @@ Places that require superscripts (including superscripts and subscripts) should 
 
 #### 使用了 Lena
 
-The Lena image is no longer recommended to be used in academic experiments. Please use other graphical materials instead. 
+The Lena image is no longer recommended for use in academic experiments. Please use other graphical materials instead. 
 
 #### 图不清晰
 
@@ -481,7 +481,7 @@ Please cite more references published in the last 3 years. Please also make a fu
 
 ### 引用了 arxiv 或其它 preprint 的文献
 
-The authors are advised to update the references that are currently in arXiv or other preprint servers to their formally published counterparts, as this improves the archival quality of the manuscript. 
+The authors are advised to update the references that are currently on arXiv or other preprint servers to their formally published counterparts, as this improves the archival quality of the manuscript. 
 
 ### 文章投稿至十分高质量的期刊或会议但引用了十分低质量的期刊或会议的文章
 
@@ -501,7 +501,7 @@ In English academic writing, when citing a work with three or more authors, it i
 
 ### 正文中引用记号不正确
 
-The in-text citation marks are not used correctly. Initially, the in-text citation marks should be marked right after the patterns that require being supported by one or more references, instead of always being marked at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is a standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
+The in-text citation marks are not used correctly. Initially, the in-text citation marks should be placed right after the patterns that require being supported by one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is a standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
 
 ## 排版问题
 
@@ -535,7 +535,7 @@ This is an orange(fruit) . -> Incorrect
 This is an orange(fruit)  . -> Incorrect
 This is an orange (fruit). -> Correct
 This is an orange (fruit) . -> Incorrect
-TThis is an orange (fruit)  . -> Incorrect
+This is an orange (fruit)  . -> Incorrect
 This is an orange  (fruit). -> Incorrect
 This is an orange  (fruit) . -> Incorrect
 This is an orange  (fruit)  . -> Incorrect
