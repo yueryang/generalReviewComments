@@ -483,6 +483,10 @@ Please cite more references published in the last 3 years. Please also make a fu
 
 The authors are advised to update the references that are currently on arXiv or other preprint servers to their formally published counterparts, as this improves the archival quality of the manuscript. 
 
+### 引用记号的编号是硬编码
+
+The in-text citation marks in the manuscript are hard-coded and lack proper hyperlinks. The authors should ensure that each citation can be clicked to directly jump to the corresponding reference(s) in the reference list. 
+
 ### 文章投稿至十分高质量的期刊或会议但引用了十分低质量的期刊或会议的文章
 
 It is not recommended that authors cite papers indexed in journals under warning or EI-indexed conferences not recommended by the CCF. 
