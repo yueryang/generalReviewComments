@@ -289,6 +289,14 @@ There are no figures or tables in this paper. This can lead to a direct "reject"
 
 ### 公式问题
 
+#### 变量没有被正式定义
+
+Variables are not defined in the standard academic form. 
+
+#### 公式中首次出现的变量没有被解释
+
+Variables that appear for the first time in an equation should be explained after the equation. 
+
 #### 公式与上下文不衔接
 
 The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is one. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
