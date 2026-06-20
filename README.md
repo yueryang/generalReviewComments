@@ -289,14 +289,6 @@ There are no figures or tables in this paper. This can lead to a direct "reject"
 
 ### 公式问题
 
-#### 变量没有被正式定义
-
-Variables are not defined in the standard academic form. 
-
-#### 公式中首次出现的变量没有被解释
-
-Variables that appear for the first time in an equation should be explained after the equation. 
-
 #### 公式与上下文不衔接
 
 The equations should be consistent with the context. In other words, each equation should be regarded as a part of the sentence. The punctuation mark at the end of the last statement before the equation should connect the statement and the equation smoothly, if there is one. The punctuation mark at the end of the equation should correctly connect the equation and the following statement. 
@@ -304,6 +296,10 @@ The equations should be consistent with the context. In other words, each equati
 #### 公式中的等差数列列举时未写出规律中的前两项
 
 It is recommended to change the notations in the form of $1, \dots, n$ to $1, 2, \cdots, n$ in all equations. Listing the first two values before the ellipsis can make the arithmetic progression explicit and avoid any ambiguity about the step size, especially when the index starts from a value other than 1 or when the increment is not 1. Please update all the related notations in this paper. 
+
+#### 公式中首次出现的变量没有被解释
+
+Variables that appear for the first time in an equation should be explained after the equation. 
 
 #### 公式太长
 
@@ -324,6 +320,10 @@ Please use brackets large enough to cover the fraction structure.
 #### 变量未以数学形式倾斜
 
 For symbols representing variables, they should be in mathematical italics. In other words, single-letter variables should be in italics, and variables containing multiple letters should be made in textual italics. 
+
+#### 变量没有被正式定义
+
+Variables are not defined in the standard academic form. 
 
 #### 变量直接使用英文单词
 
@@ -451,7 +451,7 @@ The authors tried to describe some complex procedures in words, which leads to w
 
 #### 未使用三线表
 
-Please use the three-line table format to format the tables. If comparison is involved, please make the optimal values of each comparison group in bold. 
+Please format the tables in the three-line table format. If comparison is involved, please make the optimal values of each comparison group in bold. 
 
 #### 表是截图
 
@@ -470,6 +470,10 @@ The footnotes of the tables are not typeset well. Please ensure that all footnot
 A caption should be offered before each table. 
 
 ## 引用问题
+
+### 参考文献列表格式不统一
+
+The styles of the references in the reference list are not uniform. Please use only one style (e.g., GB/T, APA, or MPA) throughout the paper. Except for the online resource citations, please keep or remove the links uniformly. 
 
 ### 参考文献风格序号使用的括号不是方括号
 
@@ -499,7 +503,7 @@ The in-text citation marks in the manuscript are hard-coded and lack proper hype
 
 It is not recommended that authors cite papers indexed in journals under warning or EI-indexed conferences not recommended by the CCF. 
 
-### 文章有参考文献但未在正文显示引用
+### 文章有参考文献但未在正文显式引用
 
 While the paper has offered a reference list at the end of the paper, they are not cited in the text. The authors should cite all the references in the text, where their in-text views and statements that need to be supported can be supported by the references cited near them. 
 
