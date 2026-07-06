@@ -489,7 +489,7 @@ Please check the cases of the letters in the author names, paper titles, and pub
 
 ### 引文过时
 
-Please cite more references published in the last 3 years. Please also make a full investigation and discuss them. 
+Please cite more references published in the last 3 years and conduct an up-to-date investigation. Subsequently, please update the background statements in this paper. 
 
 ### 引用了 arxiv 或其它 preprint 的文献
 
