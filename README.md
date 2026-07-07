@@ -25,11 +25,11 @@ The current emails used for academic paper submission are informal. Please try t
 
 ### 双盲同行评审文章暴露姓名单位
 
-While the paper was sent for a double-blind peer review, the paper exposes the names and affiliations. If the authors want to show their names and affiliations in the paper, please select a journal or conference that supports single-blind peer review and select single-blind peer review during submission. 
+While the paper was sent for a double-blind peer review, it exposes the names and affiliations. If the authors want to show their names and affiliations in the paper, please select a journal or conference that supports single-blind peer review and select single-blind peer review during submission. 
 
 ### 回复态度不认真
 
-While I appreciate the revision made by the authors, I would like to remind the authors of the point-to-point response to the reviewers. That is, each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
+While I appreciate the revisions made by the authors, I would like to remind them of the point-to-point response to the reviewers. That is, each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
 
 ## 写作风格
 
@@ -71,7 +71,7 @@ Too many keywords are provided. Please reduce the number of keywords.
 
 ### 分节过于频繁
 
-Some sections are divided into too many subsections, resulting in too little content in each subsection. Please re-organize the section and subsection structures. 
+Some sections are divided into too many subsections, resulting in too little content in each subsection. Please reorganize the section and subsection structures. 
 
 ### 国际期刊出现意义不明的中文
 
@@ -237,14 +237,14 @@ Yours sincerely,
 ..., ...
 ```
 
-### 审稿邀请已被他人接受并完成
+### 审稿邀请因已接受邀请的审稿人数量足够或已提交的审稿报告数量足够而被系统提示不再需要
 
 ```
 Dear Editors, 
 
 Thanks for the invitation and for your trust in me. 
-Others seem to have submitted their comments before I accepted your invitation. 
-The system tells me that the review is finished after I open the link. 
+Before I can accept your invitation, the number of reviewers who have accepted the invitation or even have submitted their comments is adequate. 
+The system tells me that the review request for this paper is no longer needed after I open the link. 
 Should you have further review invitations, please do not hesitate to contact me. 
 Looking forward to our next cooperation. 
 Best regards. 
@@ -331,7 +331,7 @@ For variables consisting of multiple letters, please consider using a simple sin
 
 #### 行内公式排版过于突兀
 
-The in-line equations are not properly formatted. When reading, they may be abrupt, which may affect readers' experience. 
+The in-line equations are not properly formatted. When reading, they may be abrupt, which may affect the readers' experience. 
 
 #### 行间公式下接变量解释不规范
 
@@ -596,6 +596,10 @@ The paper uses curved quotation marks. However, the opening and closing quotatio
 ### 标点符号后面未加空格
 
 When a non-prefix punctuation symbol, such as a period, comma, semicolon, or colon, is followed by a word or letter, there should be and only should be one space character between the punctuation symbol and the following word or letter. 
+
+### 返修高光字体颜色对读者和审稿人不友好
+
+Using font colors like yellow to highlight the changes is unfriendly to readers and reviewers. Please consider using the font colors like red, blue, green, and orange. 
 
 ## 期刊需求
 
