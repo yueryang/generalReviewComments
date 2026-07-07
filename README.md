@@ -313,9 +313,9 @@ The serial numbers of the equations between lines should not go beyond the right
 
 Please use a correct equation editor to edit the equations. 
 
-#### 分式括号未能涵盖分式内容
+#### 分式括号未能涵盖公式中的分式内容
 
-Please use brackets large enough to cover the fraction structure. 
+Please ensure that the brackets are large enough to enclose the entire fraction within the equations. 
 
 #### 变量未以数学形式倾斜
 
