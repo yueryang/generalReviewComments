@@ -597,9 +597,9 @@ The paper uses curved quotation marks. However, the opening and closing quotatio
 
 When a non-prefix punctuation symbol, such as a period, comma, semicolon, or colon, is followed by a word or letter, there should be and only should be one space character between the punctuation symbol and the following word or letter. 
 
-### 返修高光字体颜色对读者和审稿人不友好
+### 返修高光字体颜色对人眼睛不友好
 
-Using font colors like yellow to highlight the changes is unfriendly to readers and reviewers. Please consider using the font colors like red, blue, green, and orange. 
+While I truly appreciate the detailed changes highlighted in the revised version of the manuscript, using font colors like yellow to highlight the changes can be unfriendly to human eyes. Please consider using colors such as red, blue, green, or orange instead. 
 
 ## 期刊需求
 
