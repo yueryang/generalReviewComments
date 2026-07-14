@@ -230,7 +230,7 @@ Thanks for the invitation and for your trust in me.
 The review is finished, and the report is attached. 
 I am willing to review the paper again if there is any future review. 
 By the way, I would appreciate it if I could have a review certificate. 
-Looking forward to our next cooperation. 
+Looking forward to our next collaboration. 
 Best regards. 
 
 Yours sincerely, 
@@ -246,7 +246,7 @@ Thanks for the invitation and for your trust in me.
 Before I can accept your invitation, the number of reviewers who have accepted the invitation or even have submitted their comments is adequate. 
 The system tells me that the review request for this paper is no longer needed after I open the link. 
 Should you have further review invitations, please do not hesitate to contact me. 
-Looking forward to our next cooperation. 
+Looking forward to our next collaboration. 
 Best regards. 
 
 Yours sincerely, 
@@ -274,7 +274,7 @@ Dear Editors,
 
 Thank you so much for the review certificate. 
 The certificate looks nice and is well-stored. 
-Looking forward to our next cooperation. 
+Looking forward to our next collaboration. 
 Best regards. 
 
 Yours sincerely, 
