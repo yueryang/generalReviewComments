@@ -521,6 +521,10 @@ The in-text citation marks are not used correctly. Initially, the in-text citati
 
 ## 排版问题
 
+### 上级标题字号小于下级标题字号
+
+The font size of a higher-level section title should be set larger than that of a lower-level section title. 
+
 ### 不能出现在行首的标点符号出现在了行首
 
 Please check your manuscript editor. Normally, the editor should automatically handle punctuation marks that should not appear at the beginning of a line. However, this article currently has a large number of punctuation marks at the beginning of lines. 
