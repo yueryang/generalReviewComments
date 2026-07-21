@@ -219,7 +219,7 @@ This paper suffers from a problem with its writing style and structure, specific
 
 ## 回复 Editors
 
-请在“Yours sincerely”的下一行书写姓名和单位。
+请在“Yours sincerely”的下一行书写姓名和单位，如果不是第一次，可以在内容第一句结尾加上“again”。
 
 ### 审稿完成
 
@@ -415,6 +415,10 @@ A caption of a figure should be put after the figure body.
 #### 图没有标题
 
 A caption should be offered after each figure. 
+
+#### 图清晰但太小
+
+Some figures are in small sizes, which require readers to zoom in to view (though they are still clear after zooming in). Please enlarge their sizes. 
 
 #### 图片脚注格式不正确
 
