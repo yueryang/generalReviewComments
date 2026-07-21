@@ -35,7 +35,7 @@ While I appreciate the revisions made by the authors, I would like to remind the
 
 ### Related Work 没有对比
 
-The related work section should compare the differences of the previous works, figure out their shortcomings, and explain why the proposed method can outperform others. 
+The related work section should compare the differences between the previous works, figure out their shortcomings, and explain why the proposed method can outperform others. 
 
 ### 上下级结构标题直接连接
 
@@ -59,7 +59,7 @@ Please provide more quantitative data.
 
 ### 关键词声明不正确
 
-The "Key words" should be written as "Keywords". There should be no space characters between the "Keywords" and the colon after it. 
+The "Key words" should be written as "Keywords". There should be no spaces between the "Keywords" and the colon after it. 
 
 ### 关键词大小写不匹配
 
@@ -83,7 +83,7 @@ There are some statements written in non-English languages. As this paper is sub
 
 ### 存在大量的短章节或章节被用于枚举用途
 
-There are many short subsubsections in this paper, where there is only a short paragraph in each of these subsubsections. In this case, it is recommended to make each of the titles of subsubsections the first sentence in bold of its following paragraph. 
+There are many short subsubsections in this paper, where there is only a short paragraph in each of these subsubsections. In this case, it is recommended to make each of the titles of subsubsections the first sentence in bold of the following paragraph. 
 
 ### 存在大量短段落
 
@@ -175,7 +175,7 @@ Normally, the Introduction section of a paper that comes from science and engine
 
 ### 科学或工程类文章摘要分点
 
-The writing style of the Abstract is currently a writing style of papers that come from the arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
+The writing style of the Abstract is currently the writing style of papers that come from the arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
 
 ### 章节标题没有序号
 
@@ -211,7 +211,7 @@ An academic paper should at least include, from the beginning to the end, an abs
 
 ### 节、小节标题缩进量不统一
 
-The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles in the same level. 
+The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
 
 ### 跨级跳跃
 
@@ -261,6 +261,35 @@ Dear Editors,
 Thanks for the invitation and for your trust in me. 
 I am willing to help review the paper. 
 Please kindly send me the materials for review. 
+Best regards. 
+
+Yours sincerely, 
+..., ...
+```
+
+### 接受期刊常任审稿人邀请（不附 CV）
+
+```
+Dear Editors, 
+
+Thanks for the invitation and for your trust in me. 
+I am willing to serve as a board reviewer for your journal. 
+Should you need more of my information, such as a CV, please do not hesitate to contact me. 
+Best regards. 
+
+Yours sincerely, 
+..., ...
+```
+
+### 接受期刊常任审稿人邀请（附 CV）
+
+```
+Dear Editors, 
+
+Thanks for the invitation and for your trust in me. 
+I am willing to serve as a board reviewer for your journal. 
+My CV is attached. 
+Please let me know whether it is suitable. 
 Best regards. 
 
 Yours sincerely, 
@@ -529,9 +558,13 @@ The font size of a higher-level section title should be set larger than that of 
 
 Please check your manuscript editor. Normally, the editor should automatically handle punctuation marks that should not appear at the beginning of a line. However, this article currently has a large number of punctuation marks at the beginning of lines. 
 
+### 作者单位列表字体不统一
+
+Please make the font family used in the author list and affiliations consistent. 
+
 ### 全文字号统一难以区分上下级标题
 
-All the text shares the same font size in this paper, which can hardly convey a superior-subordinate relationship in typesetting. The authors may need to adjust the font. For example, the authors can consider using different font sizes for the titles of sections and the titles of subsections. Using bold, italics, and regular fonts in the same font size is also acceptable to tell the titles of sections, the titles of subsections, and the content text. 
+All the text shares the same font size in this paper, which can hardly convey a superior-subordinate relationship in typesetting. The authors may need to adjust the font. For example, the authors can consider using different font sizes for the titles of sections and the titles of subsections. Using bold, italics, and regular fonts in the same font size is also acceptable to distinguish the titles of sections, the titles of subsections, and the content text. 
 
 ### 分号后未接小写字母
 
