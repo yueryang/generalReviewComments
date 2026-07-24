@@ -243,8 +243,8 @@ Yours sincerely,
 Dear Editors, 
 
 Thanks for the invitation and for your trust in me. 
-Before I can accept your invitation, the number of reviewers who have accepted the invitation or even have submitted their comments is adequate. 
-The system tells me that the review request for this paper is no longer needed after I open the link. 
+Before I can accept your invitation and submit my review comments, the number of reviewers who have accepted the invitation or have even submitted their comments seems adequate. 
+After I log in to the system via the link today, the system tells me that the review request for this paper is no longer needed. 
 Should you have further review invitations, please do not hesitate to contact me. 
 Looking forward to our next collaboration. 
 Best regards. 
@@ -260,7 +260,7 @@ Dear Editors,
 
 Thanks for the invitation and for your trust in me. 
 I am willing to help review the paper. 
-Please kindly send me the materials for review. 
+Please kindly send me the review materials. 
 Best regards. 
 
 Yours sincerely, 
