@@ -123,7 +123,7 @@ The abstract is too long. Please simplify the abstract. While the abstract cover
 
 ### 摘要结尾处无具体数据
 
-The Abstract lacks quantitative results. Key findings should be presented in the form of quantitative outcomes to strengthen their impact at the end of the Abstract. 
+The Abstract lacks quantitative results. Key findings should be presented as quantitative outcomes to strengthen their impact at the end of the Abstract. 
 
 ### 文章存在大量不明符号
 
@@ -320,6 +320,38 @@ Yours sincerely,
 
 ## 多媒体问题
 
+### 伪代码关键字未加粗
+
+Keywords in pseudocode, such as "For" and "End For", should be in bold. 
+
+#### 未使用三线结构
+
+The authors can consider using a three-line table to format the algorithms, where the first two lines surround the caption of the algorithms, and the last line serves as the ending line of the algorithm structure. 
+
+#### 算法文章没有伪代码
+
+This paper mainly focuses on algorithms. However, there are no algorithms or pseudocode in this paper. 
+
+#### 算法是截图
+
+Please make the algorithms editable. Using screenshots as algorithms is not allowed. 
+
+#### 算法标题位置不正确
+
+A caption of an algorithm should be placed between the first two lines of the algorithm. 
+
+#### 算法没有标题
+
+A caption of an algorithm should be placed between the first two lines of the algorithm. 
+
+#### 算法脚注格式不正确
+
+The footnotes of the algorithms are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the algorithm body, and that they correctly correspond to the things required to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the algorithms to the end of the captions. Nonetheless, this is not a good choice. 
+
+#### 过程使用冗余文字描述
+
+The authors tried to describe some complex procedures in words, which leads to wordy paragraphs. Please try to use algorithms or pseudocode instead. 
+
 ### 全文没有图表
 
 There are no figures or tables in this paper. This can lead to a direct "reject" decision. 
@@ -402,7 +434,7 @@ Using arrows whose body is a single line in figures is not formal in academic wr
 
 #### 图太抽象
 
-The figures are too abstract. Please optimize the figures to make them convey more precise information. 
+The figures are too abstract. Please optimize the figures to convey more precise information. 
 
 #### 图太过鲜艳
 
@@ -410,7 +442,7 @@ The color matching of some figures is too sharp. Please use milder colors.
 
 #### 图序号非常混乱
 
-The figure numbering is very messy. Please reorganize their order numbers to ensure they are continuously ascending and unique throughout the paper, and update the references to them in plain text accordingly. 
+The figure numbering is very messy. Please reorganize the ordering to ensure they are continuously ascending and unique throughout the paper, and update the references to them in plain text accordingly. 
 
 #### 图是软件截图
 
@@ -434,7 +466,7 @@ The footnotes of the figures are not typeset well. Please explain the figures di
 
 #### 子图没有子标题
 
-Regarding the figures containing subplots, for each subplot, there should be a caption below it, consisting of a marker (like (a), (b), and (c)) and a description connected by a space character. The caption of each subplot should be editable outside the subplot instead of being embedded in the subplot. The authors can retain the descriptions marked (a), (b), (c), etc. in the main captions of the figures. 
+Regarding the figures containing subplots, for each subplot, there should be a caption below it, consisting of a marker (like (a), (b), and (c)) and a description separated by a space. The caption of each subplot should be editable outside the subplot instead of being embedded in the subplot. The authors can retain the descriptions marked (a), (b), (c), etc. in the main captions of the figures. 
 
 #### 子图被嵌为一个大图
 
@@ -458,39 +490,11 @@ Multimedia elements, like figures, tables, equations, and algorithms, should be 
 
 The paper presents some multimedia elements like figures, tables, equations, and algorithms, but some of them are not referenced explicitly by statements in the plain text. The authors need to guarantee that each multimedia element is referenced explicitly by statements in the plain text. 
 
-### 算法
+### 算法（伪代码）
 
 #### 伪代码被具体为（某种）编程语言
 
 Normally, in pseudocode, we use a single equals sign to express the equality relationship. The double equals sign is typically used in specific programming languages rather than in academic papers. When we need to denote assignment in pseudocode, we usually use $\gets$, which is a leftward arrow-like symbol. 
-
-#### 未使用三线结构
-
-The authors can consider using a three-line table to format the algorithms, where the first two lines surround the caption of the algorithms, and the last line serves as the ending line of the algorithm structure. 
-
-#### 算法文章没有伪代码
-
-This paper mainly focuses on algorithms. However, there are no algorithms or pseudocode in this paper. 
-
-#### 算法是截图
-
-Please make the algorithms editable. Using screenshots as algorithms is not allowed. 
-
-#### 算法标题位置不正确
-
-A caption of an algorithm should be placed between the first two lines of the algorithm. 
-
-#### 算法没有标题
-
-A caption of an algorithm should be placed between the first two lines of the algorithm. 
-
-#### 算法脚注格式不正确
-
-The footnotes of the algorithms are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the algorithm body, and that they correctly correspond to the things required to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the algorithms to the end of the captions. Nonetheless, this is not a good choice. 
-
-#### 过程使用冗余文字描述
-
-The authors tried to describe some complex procedures in words, which leads to wordy paragraphs. Please try to use algorithms or pseudocode instead. 
 
 ### 表
 
@@ -566,7 +570,7 @@ In English academic writing, when citing a work with three or more authors, it i
 
 ### 正文中引用记号不正确
 
-The in-text citation marks are not used correctly. Initially, the in-text citation marks should be placed right after the statements that require support from one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is a standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and a space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
+The in-text citation marks are not used correctly. Initially, the in-text citation marks should be placed right after the statements that require support from one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is the standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and a space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
 
 ## 排版问题
 
@@ -584,7 +588,7 @@ Please make the font family used in the author list and affiliations consistent.
 
 ### 全文字号统一难以区分上下级标题
 
-All the text shares the same font size in this paper, which can hardly convey a superior-subordinate relationship in typesetting. The authors may need to adjust the font. For example, the authors can consider using different font sizes for the titles of sections and the titles of subsections. Using bold, italics, and regular fonts in the same font size is also acceptable to distinguish the titles of sections, the titles of subsections, and the content text. 
+All the text shares the same font size in this paper, which makes it hard to convey a superior-subordinate relationship in typesetting. The authors may need to adjust the font. For example, the authors can consider using different font sizes for the titles of sections and the titles of subsections. Using bold, italics, and regular fonts in the same font size is also acceptable to distinguish the titles of sections, the titles of subsections, and the content text. 
 
 ### 分号后未接小写字母
 
