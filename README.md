@@ -65,6 +65,10 @@ The "Key words" should be written as "Keywords". There should be no space charac
 
 The keywords are not typeset uniformly. While keeping the professional writing of the academic terms, please capitalize the first letter of the first word of each keyword, or capitalize the first letter of the first word and all the content words of each keyword. 
 
+### 关键词提示词不正确
+
+Please use "Keywords: " in bold as the prompt word and place it at the beginning of the keyword list. 
+
 ### 关键词数量太多
 
 Too many keywords are provided. Please reduce the number of keywords. 
@@ -185,9 +189,17 @@ Normally, the Introduction section of a paper that comes from science and engine
 
 The writing style of the Abstract is currently the writing style of papers that come from the arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
 
+### 章节标题以冒号结尾
+
+Please remove the colons at the end of the titles of the sections and subsections. 
+
 ### 章节标题没有序号
 
 There should be an order number at the beginning of each section and subsection title. 
+
+### 章节标题缩进量不统一
+
+The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
 
 ### 算法文章没有复杂度分析
 
@@ -213,13 +225,9 @@ A review should investigate the development of a specified topic, make compariso
 
 The abbreviations of the academic terms are not used correctly. Each academic term whose abbreviation is going to be used frequently in a section should be given its full name, followed by its abbreviation in a pair of parentheses, when it first appears in that section. Subsequently, please always use the abbreviation throughout that section. 
 
-### 缺乏重要 Section
+### 缺乏重要章节
 
-An academic paper should at least include, from the beginning to the end, an abstract, an Introduction section, a Related Work section, a Methodology section, an Experiments section, a Results and Discussion section, a Conclusion section, some appendix sections, and a References section. For the sections between the Introduction section and the Conclusion section, there should be subsections. 
-
-### 节、小节标题缩进量不统一
-
-The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
+This paper lacks important sections. An academic paper should at least include, from beginning to end, an abstract, an Introduction section, a Related Work section, a Methodology section, an Experiments section, a Results and Discussion section, a Conclusion section, some appendix sections, and a References section. For the sections between the Introduction section and the Conclusion section, there should be subsections. This can directly lead to a rejection decision. 
 
 ### 跨级跳跃
 
@@ -346,7 +354,7 @@ A caption of an algorithm should be placed between the first two lines of the al
 
 #### 算法脚注格式不正确
 
-The footnotes of the algorithms are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the algorithm body, and that they correctly correspond to the things required to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the algorithms to the end of the captions. Nonetheless, this is not a good choice. 
+The footnotes of the algorithms are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the algorithm body, and that they correctly correspond to the things that need to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the algorithms to the end of the captions. Nonetheless, this is not a good choice. 
 
 #### 过程使用冗余文字描述
 
@@ -508,11 +516,11 @@ Please make the tables editable. Using screenshots as tables is not allowed.
 
 #### 表标题位置不正确
 
-A caption of a table should be put before the table body. 
+A caption of a table should be placed before the table body. 
 
 #### 表格脚注格式不正确
 
-The footnotes of the tables are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the table body, and that they correctly correspond to the things required to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the tables to the end of the captions. Nonetheless, this is not a good choice. 
+The footnotes of the tables are not typeset well. Please ensure that all footnotes use a consistent smaller font size compared to the table body, and that they correctly correspond to the things that need to be explained. The footnotes are aligned to the left of the document or the column. Identifiers (symbols or numbers) in the footnotes are aligned with the last character of the identifier. There is a space between the identifier and the explanation of the identifier, and these spaces are also aligned. Using the ``threeparttable`` environment is a satisfying choice if LaTeX is used for formatting. Otherwise, please consider moving all the footnotes of the tables to the end of the captions. Nonetheless, this is not a good choice. 
 
 #### 表没有标题
 
