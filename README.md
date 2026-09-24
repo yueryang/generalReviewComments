@@ -434,7 +434,7 @@ The figures are not clear enough. Please improve their quality and resolution. P
 
 #### 图中文字的字体与普通文本中文字的字体不一致
 
-The font families of the text in the figures should be changed to "Times New Roman" so that they can be aligned with the font family of the plain text. 
+The font families of the text (excluding code) in the figures should be changed to "Times New Roman" so that they can be aligned with the font family of the plain text. 
 
 #### 图使用了一条线的箭头
 
@@ -467,6 +467,10 @@ A caption should be provided after each figure.
 #### 图清晰但太小
 
 Some figures are small, which requires readers to zoom in to view (though they are still clear after zooming in). Please enlarge them. 
+
+#### 图片周围有大量空白
+
+Please consider trimming the excessive white space along the edges of the figures. 
 
 #### 图片脚注格式不正确
 
@@ -517,6 +521,10 @@ Please make the tables editable. Using screenshots as tables is not allowed.
 #### 表标题位置不正确
 
 A caption of a table should be placed before the table body. 
+
+#### 表格的列与列之间间隔太远
+
+Please consider reducing the excessive white space between the columns. 
 
 #### 表格脚注格式不正确
 
@@ -578,7 +586,9 @@ In English academic writing, when citing a work with three or more authors, it i
 
 ### 正文中引用记号不正确
 
-The in-text citation marks are not used correctly. Initially, the in-text citation marks should be placed right after the statements that require support from one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is the standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and a space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
+The in-text citation marks are not used correctly. Please refer to the appendix for more details. 
+
+Initially, the in-text citation marks should be placed right after the statements that require support from one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is the standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and a space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
 
 ## 排版问题
 
@@ -672,7 +682,7 @@ While I truly appreciate the detailed changes highlighted in the revised version
 
 ## 期刊需求
 
-### 没有图形学摘要
+### 没有图形摘要
 
 As suggested by the journal, the authors need to provide a graphical abstract. 
 
