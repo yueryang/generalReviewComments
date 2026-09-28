@@ -85,7 +85,7 @@ As this paper is submitted to an international journal, please check the Chinese
 
 There are some statements written in non-English languages. As this paper is submitted to an international journal, please check them carefully. 
 
-### 存在大量的短章节或章节被用于枚举用途
+### 存在大量的短（小）节或（小）节被用于枚举用途
 
 There are many short subsubsections in this paper, where there is only a short paragraph in each of these subsubsections. In this case, it is recommended to make each of the titles of subsubsections the first sentence in bold of the following paragraph. 
 
@@ -93,7 +93,7 @@ There are many short subsubsections in this paper, where there is only a short p
 
 There are many short paragraphs. Please consider merging some of them. 
 
-### 存在疑似章节标题的独行文字但未加粗或添加序号且此独行文字适合放在下接自然段的段首
+### 存在疑似（小）节标题的独行文字但未加粗或添加序号且此独行文字适合放在下接自然段的段首
 
 There seem to be some short titles in stand-alone lines. I agree that those should not be made subsubsection titles. Meanwhile, I would like to recommend making each of them the first sentence of its following paragraph. 
 
@@ -189,18 +189,6 @@ Normally, the Introduction section of a paper that comes from science and engine
 
 The writing style of the Abstract is currently the writing style of papers that come from the arts. The Abstract of papers that come from science and engineering should be written in one paragraph without conceptual elaboration. 
 
-### 章节标题以冒号结尾
-
-Please remove the colons at the end of the titles of the sections and subsections. 
-
-### 章节标题没有序号
-
-There should be an order number at the beginning of each section and subsection title. 
-
-### 章节标题缩进量不统一
-
-The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
-
 ### 算法文章没有复杂度分析
 
 This paper mainly focuses on algorithms. However, there is no time or memory complexity analysis. 
@@ -225,13 +213,29 @@ A review should investigate the development of a specified topic, make compariso
 
 The abbreviations of the academic terms are not used correctly. Each academic term whose abbreviation is going to be used frequently in a section should be given its full name, followed by its abbreviation in a pair of parentheses, when it first appears in that section. Subsequently, please always use the abbreviation throughout that section. 
 
-### 缺乏重要章节
+### 缺乏重要的节
 
 This paper lacks important sections. An academic paper should at least include, from beginning to end, an abstract, an Introduction section, a Related Work section, a Methodology section, an Experiments section, a Results and Discussion section, a Conclusion section, some appendix sections, and a References section. For the sections between the Introduction section and the Conclusion section, there should be subsections. This can directly lead to a rejection decision. 
 
 ### 跨级跳跃
 
 This paper suffers from a problem with its writing style and structure, specifically that some levels are skipped. For example, some first-level headings and third-level headings directly skip over second-level headings, which is not allowed. That is to say, between the titles of Section X and Section X.Y.Z, there should be a title of Section X.Y. Subsequently, there should be an introductory paragraph between the titles of Section X and Section X.Y and between the titles of Section X.Y and Section X.Y.Z. 
+
+### （小）节标题以冒号结尾
+
+Please remove the colons at the end of the titles of the sections and subsections. 
+
+### （小）节标题未使用陈述语气
+
+Some section and subsection titles contain interrogative, rhetorical, or hypophora tones. I suggest revising them into declarative or nominal forms. 
+
+### （小）节标题没有序号
+
+There should be an order number at the beginning of each section and subsection title. 
+
+### （小）节标题缩进量不统一
+
+The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
 
 ## 回复 Editors
 
