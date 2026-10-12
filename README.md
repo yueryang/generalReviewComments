@@ -486,7 +486,7 @@ Regarding the figures containing subplots, for each subplot, there should be a c
 
 #### 子图被嵌为一个大图
 
-Regarding figures containing subplots, the authors are suggested to restructure the multi-panel layout. Please align all subfigures and their corresponding sub-captions prefixed with labels (a), (b), (c), etc., to the horizontal and vertical center of their allocated cell of a centered grid. The overall figure caption should be placed at the very bottom, below all sub-figures, to ensure a professional and legible presentation. 
+Regarding figures containing subplots, the authors are advised to restructure the multi-panel layout. Each subfigure's caption, prefixed with labels (a), (b), (c), etc., should be placed directly below the subfigure and horizontally centered with respect to the subfigure. The overall figure caption should be placed at the very bottom, below all subfigures, to ensure a professional and legible presentation. 
 
 If the authors do not know how to typeset, please submit the source files for each subplot separately, rather than a single source file combining, concatenating, or embedding all the subplots into one large figure, to the journal. 
 
