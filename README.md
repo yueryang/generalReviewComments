@@ -35,7 +35,7 @@ While I appreciate the revisions made by the authors, I would like to remind the
 
 ### Related Work 没有对比
 
-The related work section should compare the differences between the previous works, figure out their shortcomings, and explain why the proposed method can outperform others. 
+The related work section should compare the differences between the previous works, identify their shortcomings, and explain why the proposed method can outperform others. 
 
 ### 上下级结构标题直接连接
 
@@ -165,9 +165,21 @@ The current paper title contains an interrogative, rhetorical, or hypophora tone
 
 The manuscript contains numerous typographical errors, inconsistent formatting, wordy expressions, and incomplete sentences. It is very challenging for readers to follow the paper. A thorough language and formatting revision is required. 
 
+### 文章语气过于肯定
+
+The prose overstates certainty. Please use a neutral academic tone. 
+
+### 文章部分句子因果关系过于强烈
+
+In several sentences of the manuscript, the causal relationships are stated more strongly than the evidence appears to support. Using "since" and "as" instead of "because" can somewhat help solve this issue. 
+
 ### 无学术写作结构
 
 This paper does not follow academic writing standards. Please use sections and subsections with clear hierarchical sequence numbers in their titles to structure this paper. 
+
+### 未声明数据可用性
+
+It would be better to include a Data Availability section to release the datasets, algorithm implementations, and configurations to support reproducibility. One of the best ways is to publish them in a GitHub repository with a runnable GitHub workflow. 
 
 ### 机翻味重
 
