@@ -5,7 +5,7 @@
 
 当正在被审阅的论文“命中”了相应的问题后，审稿人可直接将对应的审稿意见复制粘贴到相应的审稿意见区域中，并依照实际情况进行细化、补充、排序和标号。
 
-为便于检索，本文档已对每一部分的问题通过使用字符串比较的形式进行升序排序。
+为便于检索，本文档已对每一部分的问题通过使用字符串比较的形式进行升序排序，并为生成式人工智能（Generative Artificial Intelligence，简称“GenAI”）智能体（Agent）提供了一份 [``SKILL.md``](./SKILL.md)。
 
 请注意：
 
@@ -15,7 +15,7 @@
 
 此外，本存储库提供了 ``arrangeOrder.py`` 脚本来执行层次排序，要求被排序的文件以行首“#”的数量来确定层次关系，且正文内容中不含有以“#”开头的行。
 有需要者可以使用本存储库提供的 ``computePaperCount.py`` 脚本来通过简历中已按出版物合并的审稿经历计算总审稿篇数。
-此处，强烈谴责某些期刊频繁邀约审稿却对审稿人稿件秒拒的行为及由此导致的审稿人审稿量为其发文量数倍的现象。
+此处，强烈谴责某些期刊频繁邀约审稿（甚至送审应当在预审阶段打回而未在预审阶段打回的文章）却对审稿人稿件无理由秒拒（Desk-reject）的行为及由此导致的审稿人审稿量为其发文量数倍的现象。
 
 ## 作者态度问题 / Author Conduct Issues
 
@@ -552,6 +552,10 @@ A caption should be provided before each table.
 
 ## 引用问题 / Citation Issues
 
+### 参考文献不存在 / Non-existent References Cited
+
+Some non-existent references were cited. Please double-check the reference list before submission. 
+
 ### 参考文献仅涵盖近三年文献 / References Cover Only the Most Recent Three Years
 
 I appreciate that the authors have made a thorough investigation of the state-of-the-art research, and that all the references cited were published in the last 3 years. However, I am concerned that the authors might have left out earlier classic literature. Therefore, I recommend that the authors cite some classic literature to briefly discuss the development of the research direction of this paper. 
@@ -563,6 +567,10 @@ The styles of the references in the reference list are not uniform. Please use o
 ### 参考文献未正确区分大小写或使用了全大写 / Incorrect Capitalization or All-Caps Text in References
 
 Please check the case of the letters in the author names, paper titles, and publication names in the reference list. 
+
+### 参考文献的 DOI 不存在 / Non-existent DOIs of References
+
+The DOIs of some cited references cannot be resolved. Please double-check the reference list before submission. 
 
 ### 参考文献过时 / Outdated References
 
