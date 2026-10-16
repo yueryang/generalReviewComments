@@ -251,11 +251,11 @@ The section, subsection, and subsubsection titles have inconsistent indentation 
 
 ## 回复 Editors / Responses to Editors
 
-请在“Yours sincerely”的下一行书写姓名和单位，如果不是第一次，可以在邮件正文第一句的第一个 for 之前加上“again”。
+请更改“Dear”后的称呼（如适用），并在“Yours sincerely”的下一行书写姓名和单位，如果不是第一次，可以在邮件正文第一句的第一个 for 之前加上“again”。
 
 ### 审稿完成 / Review Completed
 
-```
+```text
 Dear Editors, 
 
 Thank you for the invitation and for your trust in me. 
@@ -271,7 +271,7 @@ Yours sincerely,
 
 ### 审稿邀请因已接受邀请的审稿人数量足够或已提交的审稿报告数量足够而被系统提示不再需要 / Review Invitation Withdrawn Because Enough Reviewers Accepted or Enough Reports Were Submitted
 
-```
+```text
 Dear Editors, 
 
 Thank you for the invitation and for your trust in me. 
@@ -287,7 +287,7 @@ Yours sincerely,
 
 ### 接受审稿邀请 / Accepting a Review Invitation
 
-```
+```text
 Dear Editors, 
 
 Thank you for the invitation and for your trust in me. 
@@ -301,7 +301,7 @@ Yours sincerely,
 
 ### 接受期刊常任审稿人邀请（不附 CV） / Accepting an Invitation to Be a Regular Journal Reviewer Without a CV
 
-```
+```text
 Dear Editors, 
 
 Thank you for the invitation and for your trust in me. 
@@ -315,7 +315,7 @@ Yours sincerely,
 
 ### 接受期刊常任审稿人邀请（附 CV） / Accepting an Invitation to Be a Regular Journal Reviewer with a CV
 
-```
+```text
 Dear Editors, 
 
 Thank you for the invitation and for your trust in me. 
@@ -330,7 +330,7 @@ Yours sincerely,
 
 ### 收到审稿证书 / Acknowledging Receipt of a Review Certificate
 
-```
+```text
 Dear Editors, 
 
 Thank you so much for the review certificate. 
@@ -340,6 +340,20 @@ Best regards.
 
 Yours sincerely, 
 ..., ...
+```
+
+### 登入系统完成审稿邀请接受流程时审稿系统提示已关闭
+
+```text
+Dear Editors, 
+
+Thank you for the invitation and for your trust in me. 
+When I logged in to accept your invitation, the system showed the review status as closed. 
+Should you have further review invitations, please do not hesitate to contact me. 
+Looking forward to our next collaboration. 
+Best regards. 
+
+Yours sincerely, 
 ```
 
 ## 多媒体问题 / Multimedia Issues
@@ -648,7 +662,7 @@ Some quotation marks are straight, and some are curved. Please standardize the q
 
 Please always remember that any bracket (including but not limited to curly brackets, square brackets, parentheses, and equations enclosed by a pair of $) should be treated as a whole and typeset as a single word in the paper. Here are some examples. Hope they can be helpful. 
 
-```
+```text
 This is an orange(fruit). -> Incorrect
 This is an orange(fruit) . -> Incorrect
 This is an orange(fruit)  . -> Incorrect
@@ -660,7 +674,7 @@ This is an orange  (fruit) . -> Incorrect
 This is an orange  (fruit)  . -> Incorrect
 ```
 
-```
+```text
 This is an orange(color)orange. -> Incorrect
 This is an orange(color) orange. -> Incorrect
 This is an orange(color)  orange. -> Incorrect

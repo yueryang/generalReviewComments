@@ -1,8 +1,9 @@
-import os
+from os import chdir
+from os.path import abspath, dirname
 from sys import argv, exit
 from time import sleep
 try:
-	os.chdir(os.path.abspath(os.path.dirname(__file__)))
+	chdir(abspath(dirname(__file__)))
 except:
 	pass
 EXIT_SUCCESS = 0
@@ -43,6 +44,21 @@ class Arranger:
 			return cnt
 		else:
 			return -1
+	def __getFence(self:object, line:str) -> tuple|None:
+		if not isinstance(line, str):
+			return None
+		content = line.lstrip(" ")
+		if len(line) - len(content) > 3 or not content or content[0] not in ("`", "~"):
+			return None
+		marker, length = content[0], 0
+		while length < len(content) and marker == content[length]:
+			length += 1
+		if length < 3:
+			return None
+		remainder = content[length:]
+		if "`" == marker and "`" in remainder:
+			return None
+		return marker, length, remainder
 	def load(self:object, encoding:str = "utf-8") -> bool:
 		try:
 			with open(self.__inputFilePath, "r", encoding = encoding) as f:
@@ -51,9 +67,20 @@ class Arranger:
 			print("Failed to load \"{0}\" due to exceptions. Details are as follows. \n\t{1}".format(self.__inputFilePath, e))
 			return False
 		self.__root, nodeLevel = Node(), 0
+		fenceMarker, fenceLength = None, 0
 		node = self.__root
 		for line in content.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
-			level = self.__countLevel(line)
+			fence = self.__getFence(line)
+			if fenceMarker is None:
+				if fence is None:
+					level = self.__countLevel(line)
+				else:
+					fenceMarker, fenceLength = fence[0], fence[1]
+					level = 0
+			else:
+				level = 0
+				if fence is not None and fenceMarker == fence[0] and fenceLength <= fence[1] and not fence[2].strip():
+					fenceMarker, fenceLength = None, 0
 			if level >= 1:
 				if nodeLevel < level:
 					while nodeLevel < level:
@@ -82,24 +109,24 @@ def main() -> int:
 	argc = len(argv)
 	if argc >= 3:
 		arranger = Arranger(argv[1], argv[2])
-		iRet = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
+		exitStatus = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
 	elif 2 == argc:
 		print("The script will process the file in place within {0} second(s). ".format(warningTime))
 		try:
 			sleep(warningTime)
 			arranger = Arranger(argv[1], argv[1])
-			iRet = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
+			exitStatus = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
 		except:
-			iRet = EOF
+			exitStatus = EOF
 	else:
 		print("Nothing to handle. Please use the command line to specify the input and output files. ")
-		iRet = EOF
-	print("Please press the enter key to exit ({0}). ".format(iRet))
+		exitStatus = EOF
+	print("Please press the enter key to exit ({0}). ".format(exitStatus))
 	try:
 		input()
 	except:
 		print()
-	return iRet
+	return exitStatus
 
 
 
