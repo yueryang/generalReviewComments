@@ -19,8 +19,9 @@ When matching the names ``学术成果.xlsx`` and ``论文审稿`` below, use th
 4. Detect whether the supplied file paths qualify for optional local review context. Obtain the current reviewer's approval before enumerating or opening any additional directory, workbook, manuscript, or review file.
 5. When approval is granted, read only the relevant similar manuscripts and comments needed as secondary reference material.
 6. Draft ``Comments to authors``, followed by ``Comments to editors`` when the latter field is present or requested.
-7. Write the review into the selected DOCX template, sanitize personal metadata, and save it to the permitted output location.
-8. Check grammar, natural English, quotation marks, symbol formatting, template integrity, and metadata sanitation in the completed review.
+7. If the current reviewer supplied a template, fill it as instructed. Otherwise, write ``Comments to authors`` into the selected ``Comments.docx`` and write ``Comments to editors`` into a UTF-8 ``toEditor.txt``.
+8. Sanitize personal metadata in every DOCX output and save all output files to the permitted location.
+9. Check grammar, natural English, quotation marks, symbol formatting, template integrity, output encoding, and metadata sanitation in the completed review.
 
 ## AI-Use Gate and Input Handling
 
@@ -75,8 +76,9 @@ Use each successfully downloaded resource for the current invocation. Otherwise,
 
 ### Opening
 
-- For the first review of a research paper, begin the summary with ``This paper proposes ...``.
-- For the first review of a systematic review paper, begin with ``This paper systematically reviews ...``. For a nonsystematic review article, or for an article that describes itself as a systematic review but is of limited quality, use ``This paper reviews ...`` instead.
+- When revision marks, author responses, or other reliable evidence show that the manuscript is not in its first round, but the current reviewer has not reviewed it in previous rounds, place this disclosure at the very beginning of the opening paragraph: ``This paper seems to be a revision, but I did not review it in previous rounds. Please forgive me for treating it as a first-round submission in this review.`` Then continue with the applicable first-review opening below.
+- For the first review of a research paper, begin the summary with ``This paper proposes ...`` after any required disclosure above.
+- For the first review of a systematic review paper, begin the summary with ``This paper systematically reviews ...`` after any required disclosure above. For a nonsystematic review article, or for an article that describes itself as a systematic review but is of limited quality, use ``This paper reviews ...`` instead.
 - For a revision review, begin with ``Thanks for the revisions.`` When the authors provide a careful and substantive point-by-point response, use ``Thanks for the revisions and the detailed response.``
 - Follow the opening with a concise summary or revision assessment in the same paragraph.
 - For a first review, end the opening summary paragraph with ``Here are my comments.``
@@ -104,6 +106,7 @@ Use each successfully downloaded resource for the current invocation. Otherwise,
 - Example: ``This paper contains many typos. Please proofread the manuscript carefully. For example, please change "the number of lines are" to "the number of lines is". ``
 - Normally write each top-level numbered comment on one source line. In the completed review, whenever a nonblank line's last non-space character is a punctuation mark, add exactly one trailing ASCII space after that mark.
 - Do not use semicolons in drafted review comments.
+- Do not use the word ``because`` in the completed review. When a causal conjunction is necessary, use ``since`` or ``as`` instead.
 - Avoid excessive enumeration and long inventory-style requests. Ask for the necessary category of information, then give only the minimum example needed for clarity.
 - Do not paste catalog entries verbatim when manuscript-specific wording would be clearer.
 
@@ -139,10 +142,13 @@ Use the following template priority:
 2. If no template was specified, a valid ``Comments.docx`` in the manuscript's input directory.
 3. If neither is available, the validated downloaded or local ``Comments.docx`` beside this ``SKILL.md``.
 
-- Preserve the selected template's layout and formatting. Place the completed ``Comments to authors`` into a copied working document. Add ``Comments to editors`` only when the template contains an appropriate field or the current reviewer requests it there.
-- By default, save the completed DOCX in the active workspace with a descriptive filename derived from the manuscript. Do not write the result beside the manuscript merely because the template or manuscript is stored there.
+- Preserve the selected template's layout and formatting. Place the completed ``Comments to authors`` into a copied working document. When the current reviewer supplied the template, add ``Comments to editors`` only when the template contains an appropriate field or the current reviewer requests it there.
+- When the current reviewer did not supply a template, place ``Comments to authors`` in the selected ``Comments.docx`` and place ``Comments to editors`` in a separate plain-text file named ``toEditor.txt`` encoded as UTF-8. Do not place ``Comments to editors`` in the fallback ``Comments.docx`` unless the current reviewer explicitly requests it.
+- By default, save the completed DOCX in the active workspace. When the current reviewer did not supply a template, name the output ``Comments.docx``. When the current reviewer supplied a template, use a descriptive filename derived from the manuscript unless the template or current reviewer requires another name. Do not write the result beside the manuscript merely because the template or manuscript is stored there.
+- Apply the same output-directory rule to ``toEditor.txt``: save it in the active workspace by default, but save it in the manuscript's input directory when the current reviewer explicitly requests in-place output or output beside the manuscript.
 - Write into a user-supplied or manuscript-directory template in place only when the current reviewer explicitly requests in-place editing and the action is otherwise safe. When the current reviewer explicitly requests output in the manuscript directory, use that directory but keep the template intact unless in-place editing was also explicitly requested.
 - Never overwrite the ``Comments.docx`` beside this ``SKILL.md``. If the current reviewer asks to use that bundled template in place, make a copy and explain that the protected template was preserved.
+- Do not download ``toEditor.txt`` from the network and do not read or use any ``toEditor.txt`` beside this ``SKILL.md`` as a template. Create the output file directly from the completed ``Comments to editors``.
 - Use the applicable document-editing workflow to preserve template structure and verify the rendered output. Do not replace the template with a newly designed document merely because recreation is easier.
 
 Before delivering any DOCX output, remove personal information that may have been inherited from the template or written by desktop software:
@@ -157,7 +163,9 @@ Before delivering any DOCX output, remove personal information that may have bee
 - Check the completed review for grammatical errors and unnatural English. Use Grammarly when it is available and would improve confidence. If it is unavailable, complete the check manually without blocking the review.
 - Confirm that quotation marks consistently use the straight, half-width English style.
 - Confirm that all punctuation and symbols are half-width English characters and that any required special characters use LaTeX source.
+- Confirm that the completed review does not use the word ``because`` and uses ``since`` or ``as`` when a causal conjunction is needed.
 - Confirm that the opening matches the review round and paper type.
+- When a revised manuscript is treated as a first review, confirm that the opening begins with the disclosure that the current reviewer did not participate in previous rounds.
 - When numbered comments are present, confirm that the opening paragraph ends with the transition required for that review round.
 - Confirm that every example has a real, searchable location when one is available.
 - Confirm that each top-level numbered comment normally occupies one source line. Confirm that every nonblank line whose last non-space character is a punctuation mark ends with exactly one trailing ASCII space.
@@ -166,6 +174,7 @@ Before delivering any DOCX output, remove personal information that may have bee
 - Confirm that the supplied template has been preserved exactly when one exists.
 - Confirm that the correct template priority was followed and that the bundled ``Comments.docx`` was not overwritten.
 - Confirm that the output path follows the current reviewer's explicit request or otherwise points to the active workspace.
+- When the current reviewer did not supply a template, confirm that ``Comments to authors`` is in ``Comments.docx`` and ``Comments to editors`` is in a UTF-8 ``toEditor.txt`` at the correct output location.
 - Confirm that every DOCX output has been checked for personal information in both visible content and package metadata.
 
 ## Constraints
@@ -182,4 +191,4 @@ Before delivering any DOCX output, remove personal information that may have bee
 
 ## Default Output
 
-When no review template is specified, use the selected ``Comments.docx`` according to the priority above and place ``Comments to authors`` into it. Provide ``Comments to editors`` separately unless the template contains an appropriate field or the current reviewer requests otherwise. If no valid DOCX template is available, request one rather than silently substituting plain text or an unrelated layout.
+When the current reviewer does not supply a review template, use the selected ``Comments.docx`` according to the priority above and place ``Comments to authors`` into it. Write ``Comments to editors`` to a separate UTF-8 ``toEditor.txt``. Save both files in the active workspace by default, or in the manuscript's input directory when the current reviewer explicitly requests in-place output or output beside the manuscript. If no valid DOCX template is available, request one rather than silently substituting plain text or an unrelated layout.
