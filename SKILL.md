@@ -9,7 +9,7 @@ Use this skill to identify supported manuscript problems and turn them into spec
 
 Throughout this skill, ``current reviewer`` refers to the user conducting the present review. This person may or may not have reviewed the manuscript in an earlier round. 
 
-When matching the names ``学术成果.xlsx`` and ``论文审稿`` below, use their meaning rather than requiring the literal Chinese wording. Accept an unambiguous equivalent name in the natural language used by the current reviewer or filesystem, but do not infer a match from a vague or unrelated name. 
+When identifying the optional local review context below, match directory, workbook, and worksheet names semantically across languages. Treat an unambiguous name meaning ``Manuscript Reviews`` as the review directory or worksheet, and an unambiguous filename meaning ``Academic Achievements`` as the records workbook. Do not require these English labels literally, and do not infer a match from a vague or unrelated name. 
 
 ## Required Order
 
@@ -37,9 +37,9 @@ When matching the names ``学术成果.xlsx`` and ``论文审稿`` below, use th
 Let ``input directory`` mean the directory containing a file supplied by the current reviewer. Let ``review directory`` be its parent directory, and let ``records directory`` be the parent of the review directory.
 
 - Path names already present in the supplied file path may be inspected to determine whether this section could apply. Do not enumerate or open sibling files, the review directory, the records directory, or any workbook before obtaining explicit approval from the current reviewer.
-- If the review directory is named ``论文审稿`` or has an unambiguous equivalent meaning, and the current reviewer approves reading other files under that directory, the agent may inspect similar manuscripts and their associated ``Comments`` for reference.
-- If the preceding condition is satisfied, the records directory contains ``学术成果.xlsx`` or an unambiguous equivalent filename, and the current reviewer approves reading both that workbook and the review directory, the agent may read the worksheet named ``论文审稿`` or its unambiguous equivalent. Use it only to identify similar articles and retrieve their recorded ``Comments``.
-- Scope approval to the exact review directory and workbook. Read-only files and worksheet content that are reasonably needed to identify or inspect similar articles.
+- If the review directory has an unambiguous name meaning ``Manuscript Reviews``, and the current reviewer approves reading other files under that directory, the agent may inspect similar manuscripts and their associated ``Comments`` for reference.
+- If the preceding condition is satisfied, the records directory contains an ``.xlsx`` workbook with an unambiguous name meaning ``Academic Achievements``, and the current reviewer approves reading both that workbook and the review directory, the agent may read the worksheet whose name unambiguously means ``Manuscript Reviews``. Use it only to identify similar articles and retrieve their recorded ``Comments``.
+- Limit access to the exact review directory and workbook approved by the current reviewer. Read only the files and worksheet content reasonably needed to identify or inspect similar articles.
 - Select similar work using manuscript-specific features such as topic, method, data, task, or venue. Treat prior comments only as secondary reference material. Never copy a comment into the new review unless the current manuscript independently supports it.
 - Do not modify the workbook, prior manuscripts, prior comments, or any other file in the approved directories unless the current reviewer separately requests that change.
 
