@@ -13,7 +13,8 @@
 2. 一些较为优质的待审论文可能不含有本文档中任一问题；
 3. 对于一些非通用的特定意见，请根据实际情况进行编写。
 
-此外，本存储库提供了 ``arrangeOrder.py`` 脚本来执行层次排序，要求被排序的文件以行首“#”的数量来确定层次关系，且正文内容中不含有以“#”开头的行。
+此外，本存储库提供了 ``arrangeOrder.py`` 脚本来执行层次排序，要求被排序的文件遵循 GitHub 的 Markdown 规则以被该脚本正确解析其层次关系。
+凡行首至多允许三个空格，并以不超过六个连续“#”及一个空格开头的行，其连续“#”的数量即为该行层级。正文中不应出现此类行；如确需保留，可通过围栏代码块予以屏蔽。
 有需要者可以使用本存储库提供的 ``computePaperCount.py`` 脚本来通过简历中已按出版物合并的审稿经历计算总审稿篇数。
 此处，强烈谴责某些期刊频繁邀约审稿（甚至送审应当在预审阶段打回而未在预审阶段打回的文章）却对审稿人稿件无理由秒拒（Desk-reject）的行为及由此导致的审稿人审稿量为其发文量数倍的现象。
 
@@ -120,6 +121,10 @@ There are no datasets, links to datasets, or data descriptions in the experiment
 ### 实验没有提供实验环境 / Experimental Environment Not Provided
 
 Please provide the experimental environments, which are recommended to be written as the first subsection of the Experiments section. 
+
+### 实验结果复制了原论文的结果而非自己复现 / Experimental Results Replicate the Original Paper's Results Rather than Being Independently Reproduced
+
+Some results of the baseline experiments are directly copied from the original paper, which is incorrect, as the experimental environments probably differ. The authors need to reproduce and conduct the baseline experiments independently. Please make sure all the experimental environments are the same across all the baselines and the proposed one. 
 
 ### 实验评估指标没有公式或没有打箭头 / Evaluation Metrics Lack Formulas or Directional Arrows
 

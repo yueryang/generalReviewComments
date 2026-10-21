@@ -34,18 +34,21 @@ class Node:
 class Arranger:
 	def __init__(self:object, inputFilePath:str, outputFilePath:str) -> object:
 		self.__inputFilePath, self.__outputFilePath, self.__root = inputFilePath, outputFilePath, None
-	def __countLevel(self:object, line:str) -> int:
+	@staticmethod
+	def __countLevel(line: str) -> int:
 		if isinstance(line, str):
+			i, length = 0, len(line)
+			while i < length and i < 3 and ' ' == line[i]:
+				i += 1
 			level = 0
-			for ch in line:
-				if "#" == ch:
-					level += 1
-				else:
-					break
-			return level
+			while i < length and '#' == line[i]:
+				level += 1
+				i += 1
+			return 0 if level < 1 or level > 6 or (i < length and line[i] not in ('\t', ' ')) else level
 		else:
 			return -1
-	def __getFence(self:object, line:str) -> tuple|None:
+	@staticmethod
+	def __getFence(line:str) -> tuple|None:
 		if not isinstance(line, str):
 			return None
 		content = line.lstrip(" ")
@@ -71,10 +74,10 @@ class Arranger:
 		fenceMarker, fenceLength = None, 0
 		node = self.__root
 		for line in content.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
-			fence = self.__getFence(line)
+			fence = Arranger.__getFence(line)
 			if fenceMarker is None:
 				if fence is None:
-					level = self.__countLevel(line)
+					level = Arranger.__countLevel(line)
 				else:
 					fenceMarker, fenceLength = fence[0], fence[1]
 					level = 0
@@ -92,6 +95,7 @@ class Arranger:
 						node = node.getParent()
 						nodeLevel -= 1
 					node = node.getParent().addChild()
+				line = line.lstrip(" ")
 			node.addContent(line + "\n")
 		print("Successfully loaded {0}. ".format(repr(self.__inputFilePath)))
 		return True
@@ -109,7 +113,7 @@ def main() -> int:
 	# Parameters #
 	warningTime = 3
 	
-	# Arrangement #
+	# Arranging #
 	try:
 		argc = len(argv)
 		if argc >= 3:
