@@ -27,9 +27,25 @@ The current emails used for academic paper submission are informal. Please try t
 
 While the paper was sent for a double-blind peer review, it exposes the names and affiliations. If the authors want to show their names and affiliations in the paper, please select a journal or conference that supports single-blind peer review and select single-blind peer review during submission. 
 
+### 小规模的论文被过多位作者署名 / Small-scale Papers Co-authored by Too Many Authors
+
+The manuscript lists a relatively large number of authors for a study of this scope. I would encourage the authors to clarify the specific contribution of each author and to confirm that all listed authors meet the journal’s authorship criteria (e.g., ICMJE/CRediT). If any individual does not meet these criteria, please consider removing them from the author list or acknowledging them appropriately. A clear author contribution statement would help the editors and readers assess this. 
+
+### 文章含有 AI 注入提示词 / AI-injected Prompts Found in the Manuscript
+
+AI-injected prompts are found in the manuscript. While I can understand the authors' hope that their paper will be fairly reviewed by a human reviewer instead of an AI agent, please remove those prompts, as this behavior constitutes scientific misconduct. 
+
+### 文章含有人类不可见的隐藏内容 / Content Invisible to Human Reviewers Found in the Manuscript
+
+This manuscript contains content invisible to human reviewers when they read the manuscript in normal mode. Please remove such content to ensure that all substantive information is visible and accessible to reviewers in normal reading mode and to comply with the journal’s transparency and submission requirements. 
+
 ### 返修提交态度不认真 / Insufficient Care in the Revised Submission
 
 While I appreciate the revisions made by the authors, I would like to remind them of the point-by-point response to the reviewers. That is, each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
+
+### 返修提交的材料不全 / Incomplete Revision Submitted
+
+A satisfactory revision should include a clean version of the manuscript without any traces, a tracked version of the manuscript with changes highlighted, and a point-by-point response to the reviewers. 
 
 ## 写作风格 / Writing Style
 

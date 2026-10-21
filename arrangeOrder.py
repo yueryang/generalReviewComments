@@ -8,7 +8,8 @@ except:
 	pass
 EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
-EOF = (-1)
+EXIT_SOFTWARE = 70
+EXIT_INTERRUPTED = 130
 
 
 class Node:
@@ -35,13 +36,13 @@ class Arranger:
 		self.__inputFilePath, self.__outputFilePath, self.__root = inputFilePath, outputFilePath, None
 	def __countLevel(self:object, line:str) -> int:
 		if isinstance(line, str):
-			cnt = 0
+			level = 0
 			for ch in line:
 				if "#" == ch:
-					cnt += 1
+					level += 1
 				else:
 					break
-			return cnt
+			return level
 		else:
 			return -1
 	def __getFence(self:object, line:str) -> tuple|None:
@@ -63,8 +64,8 @@ class Arranger:
 		try:
 			with open(self.__inputFilePath, "r", encoding = encoding) as f:
 				content = f.read()
-		except BaseException as e:
-			print("Failed to load \"{0}\" due to exceptions. Details are as follows. \n\t{1}".format(self.__inputFilePath, e))
+		except Exception as e:
+			print("Failed to load {0} due to {1}. ".format(repr(self.__inputFilePath), repr(e)))
 			return False
 		self.__root, nodeLevel = Node(), 0
 		fenceMarker, fenceLength = None, 0
@@ -92,35 +93,46 @@ class Arranger:
 						nodeLevel -= 1
 					node = node.getParent().addChild()
 			node.addContent(line + "\n")
-		print("Successfully loaded \"{0}\". ".format(self.__inputFilePath))
+		print("Successfully loaded {0}. ".format(repr(self.__inputFilePath)))
 		return True
 	def dump(self:object, encoding:str = "utf-8") -> bool:
 		try:
 			with open(self.__outputFilePath, "w", encoding = encoding) as f:
 				f.write(str(self.__root)[:-1])
-			print("Successfully wrote to \"{0}\". ".format(self.__outputFilePath))
+			print("Successfully wrote to {0}. ".format(repr(self.__outputFilePath)))
 			return True
-		except BaseException as e:
-			print("Failed to write to \"{0}\" due to exceptions. Details are as follows. \n\t{1}".format(self.__outputFilePath, e))
+		except Exception as e:
+			print("Failed to write to {0} due to {1}. ".format(repr(self.__outputFilePath), repr(e)))
 			return False
 
 def main() -> int:
+	# Parameters #
 	warningTime = 3
-	argc = len(argv)
-	if argc >= 3:
-		arranger = Arranger(argv[1], argv[2])
-		exitStatus = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
-	elif 2 == argc:
-		print("The script will process the file in place within {0} second(s). ".format(warningTime))
-		try:
+	
+	# Arrangement #
+	try:
+		argc = len(argv)
+		if argc >= 3:
+			arranger = Arranger(argv[1], argv[2])
+			exitStatus = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
+		elif 2 == argc:
+			print("The script will process the file in place within {0} second(s). ".format(warningTime))
 			sleep(warningTime)
 			arranger = Arranger(argv[1], argv[1])
 			exitStatus = EXIT_SUCCESS if arranger.load() and arranger.dump() else EXIT_FAILURE
-		except:
-			exitStatus = EOF
-	else:
-		print("Nothing to handle. Please use the command line to specify the input and output files. ")
-		exitStatus = EOF
+		else:
+			print("Nothing to handle. Please use the command line to specify the input and output files. ")
+			exitStatus = EXIT_FAILURE
+	except KeyboardInterrupt:
+		print()
+		print("The arranging process was interrupted by users. ")
+		exitStatus = EXIT_INTERRUPTED
+	except BaseException as e:
+		print()
+		print("The arranging process was interrupted by {0}. ".format(repr(e)))
+		exitStatus = EXIT_SOFTWARE
+	
+	# Exit #
 	print("Please press the enter key to exit ({0}). ".format(exitStatus))
 	try:
 		input()
