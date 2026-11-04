@@ -22,7 +22,7 @@
 
 ### 使用了不正规的邮箱 / Use of an Informal Email Address
 
-The current emails used for academic paper submission are informal. Please try to use institute-qualified emails. If it is difficult to use institute-qualified emails, a better way would be to use Gmail, where the email address should start with an English letter, and the length of the email address should be appropriate. 
+The current emails used for academic paper submission are informal. Please try to use institute-qualified emails. If it is difficult to use institute-qualified emails, a better option would be to use Gmail, where the email address should start with an English letter, and the length of the email address should be appropriate. 
 
 ### 双盲同行评审文章暴露姓名单位 / Names and Affiliations Disclosed in a Double-Blind Review Manuscript
 
@@ -42,7 +42,7 @@ This manuscript contains content invisible to human reviewers when they read the
 
 ### 返修提交态度不认真 / Insufficient Care in the Revised Submission
 
-While I appreciate the revisions made by the authors, I would like to remind them of the point-by-point response to the reviewers. That is, each corresponding response should have more words than each comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
+While I appreciate the revisions made by the authors, I would like to remind them of the point-by-point response to the reviewers. That is, each corresponding response should have more words than the corresponding comment for most comments. It will be more polite and better reflect the authors' serious attitude, compared with the situation where each response has fewer words than the corresponding comment for all comments. 
 
 ### 返修提交的材料不全 / Incomplete Revision Submitted
 
@@ -112,7 +112,7 @@ There are many short paragraphs. Please consider merging some of them.
 
 ### 存在疑似（小）节标题的独行文字但未加粗或添加序号且此独行文字适合放在下接自然段的段首 / Standalone Text Resembling a Section Heading Should Begin the Following Paragraph
 
-There seem to be some short titles in stand-alone lines. I agree that those should not be made subsubsection titles. Meanwhile, I would like to recommend making each of them the first sentence of its following paragraph. 
+There seem to be some short titles in stand-alone lines. I agree that those should not be made subsubsection titles. Meanwhile, I would like to recommend making each of them the first sentence of the following paragraph. 
 
 ### 实验未提供数据集、数据集链接或数据描述难以复现 / Missing Dataset, Dataset Link, or Reproducible Data Description
 
@@ -208,11 +208,11 @@ The English is not well written. Some English expressions read like the result o
 
 ### 没有关键词 / Missing Keywords
 
-Please provide the keywords of this paper after the Abstract. 
+Please provide the keywords for this paper after the Abstract. 
 
 ### 涉及人体数据但未提供伦理审查声明 / Human-Subject Data Without an Ethics Review Statement
 
-Please add ethical consideration statements, as this paper involves data from human bodies. The authors should attempt to obtain ethical approval from their university and submit the approved document as supplementary materials to the journal. 
+Please add ethical consideration statements, as this paper involves data from human subjects. The authors should attempt to obtain ethical approval from their university and submit the approved document as supplementary materials to the journal. 
 
 ### 科学或工程类文章引言分节 / Sectioned Introduction in a Scientific or Engineering Paper
 
@@ -268,7 +268,7 @@ There should be an order number at the beginning of each section and subsection 
 
 ### （小）节标题缩进量不统一 / Inconsistent Indentation of Section or Subsection Titles
 
-The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentations before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
+The section, subsection, and subsubsection titles have inconsistent indentation counts. The simplest way to handle this issue is to remove all the indentation before these titles. Otherwise, the authors may need to make the indentation count of these titles increase, decrease, or remain constant in an arithmetic sequence as the level increases, while keeping the same indentation count for the titles at the same level. 
 
 ## 回复 Editors / Responses to Editors
 
@@ -313,7 +313,7 @@ Dear Editors,
 
 Thank you for the invitation and for your trust in me. 
 I am willing to help review the paper. 
-Please kindly send me the review materials. 
+Please send me the review materials when you are available. 
 Best regards. 
 
 Yours sincerely, 
@@ -355,7 +355,7 @@ Yours sincerely,
 Dear Editors, 
 
 Thank you so much for the review certificate. 
-The certificate looks nice and is well stored. 
+The certificate looks nice and is well-stored. 
 Looking forward to our next collaboration. 
 Best regards. 
 
@@ -647,7 +647,7 @@ In English academic writing, when citing a work with three or more authors, it i
 
 The in-text citation marks are not used correctly. Please refer to the appendix for more details. 
 
-Initially, the in-text citation marks should be placed right after the statements that require support from one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is the standard in writing Chinese academic papers, but violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and a space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
+Initially, the in-text citation marks should be placed right after the statements that require support from one or more references, instead of always being placed at the end of the sentence. For example, the in-text citation marks can be placed right after the authors of the references. Always placing the in-text citation marks at the end of a sentence is the standard in writing Chinese academic papers, but it violates the standard in writing international academic papers. Secondly, each in-text citation marker should be treated as an English word in typesetting. If an in-text citation marker has a word next to it on one side, there should be a space character between the word and it on that side. Thirdly, when there are three or more references with continuous numbers cited in the same place, it should start with the first number of the continuous numbers, followed by a hyphen, and followed by the last number of the continuous numbers. When there are multiple references with non-continuous numbers or two references (whether with or without continuous numbers) cited in the same place, the numbers of these references should be placed in the same square brackets and separated by a comma and a space. For example, "There is evidence [1, 2, 4-8, 10, 16, 20-25, 32] proving this. " should be a correct example. 
 
 ## 排版问题 / Formatting Issues
 
